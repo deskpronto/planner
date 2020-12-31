@@ -784,7 +784,7 @@ public class Utils : GLib.Object {
                 row_selected_color = "shade (@check_border_color, 0.75)";
                 upcoming_color = "#692fc2";
 
-                Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = false;
+                Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             } else if (appearance_mode == 1) {
                 base_color = "#282828";
                 check_border_color = "grey";
