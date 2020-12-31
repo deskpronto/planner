@@ -386,7 +386,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         new_tasks_position_switch.margin_top = 12;
 
         var underline_tasks_switch = new Dialogs.Preferences.ItemSwitch (
-            _("Underline completed tasks."),
+            _("Sublinhar tarefas concluídas."),
             Planner.settings.get_boolean ("underline-completed-tasks")
         );
         underline_tasks_switch.margin_top = 12;
@@ -398,7 +398,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         list.append (_("None"));
 
         var default_priority = new Dialogs.Preferences.ItemSelect (
-            _("Default priority"),
+            _("Prioridade padrão"),
             Planner.settings.get_enum ("default-priority"),
             list
         );
@@ -938,13 +938,13 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         var export_db_item = new Dialogs.Preferences.ItemButton (_("Export Database"), _("Export"));
 
         List<string> week_list = new List<string> ();
-        week_list.append ("Sunday");
-        week_list.append ("Monday");
-        week_list.append ("Tuesday");
-        week_list.append ("Wednesday");
-        week_list.append ("Thursday");
-        week_list.append ("Friday");
-        week_list.append ("Saturday");
+        week_list.append ("Domingo");
+        week_list.append ("Segunda");
+        week_list.append ("Terça");
+        week_list.append ("Quarta");
+        week_list.append ("Quinta");
+        week_list.append ("Sexta");
+        week_list.append ("Sábado");
 
         var start_week = new Dialogs.Preferences.ItemSelect (
             _("Start of the week"),

@@ -199,14 +199,8 @@ msgid "🚀️ Getting Started"
 msgstr "🚀️ Começando"
 
 #: src/Utils.vala:975
-msgid ""
-"This project will help you learn the basics of Planner and get started with "
-"a simple task management system to stay organized and on top of everything "
-"you need to do."
-msgstr ""
-"Este projeto ajudará você a aprender os conceitos básicos do Planner e a "
-"começar com um sistema simples de gerenciamento de tarefas para se manter "
-"organizado e além de tudo fazer o que precisa ser feito."
+msgid "This project will help you learn the basics of Planner and get started with a simple task management system to stay organized and on top of everything you need to do."
+msgstr "Este projeto ajudará você a aprender os conceitos básicos do Tarefas e a começar com um sistema simples de gerenciamento de tarefas para se manter organizado e além de tudo fazer o que precisa ser feito."
 
 #: src/Utils.vala:980
 msgid "Adding new tasks"
