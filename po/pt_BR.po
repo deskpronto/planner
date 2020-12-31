@@ -24,12 +24,8 @@ msgid "Are you sure you want to reset all?"
 msgstr "Você tem certeza que deseja redefinir tudo?"
 
 #: src/Application.vala:153
-msgid ""
-"It process removes all stored information without the possibility of undoing "
-"it. (y/n): "
-msgstr ""
-"O processo remove todas as informações armazenadas sem a possibilidade de "
-"desfazê-las. (S/N): "
+msgid "It process removes all stored information without the possibility of undoing it. (y/n): "
+msgstr "O processo remove todas as informações armazenadas sem a possibilidade de desfazê-las. (S/N): "
 
 #: src/Application.vala:156
 msgid "y"
@@ -168,7 +164,7 @@ msgstr "Amanhã"
 
 #: src/Utils.vala:881
 msgid "Quick Add Activated!"
-msgstr "Adição rápida ativada !"
+msgstr "Adição rápida ativada!"
 
 #: src/Utils.vala:882
 #, c-format
@@ -177,21 +173,17 @@ msgstr "Tente %s para ativá-lo. Você pode alterá-lo nas preferências"
 
 #: src/Utils.vala:958
 #, c-format
-msgid ""
-"Planner %s is here, with many design improvements, new features, and more."
-msgstr ""
-"Tarefas %s está aqui, com muitas melhoras de design, novas funções, e mais."
+msgid "Planner %s is here, with many design improvements, new features, and more."
+msgstr "Tarefas %s está aqui, com muitas melhoras de design, novas funções, e mais."
 
 #: src/Utils.vala:960
 #, fuzzy
 msgid "New Board View"
-msgstr "Nova área"
+msgstr "Nova Área de Visualização"
 
 #: src/Utils.vala:960
-msgid ""
-"For Todoist users, the Board View was introduced in this new update, a more "
-"visual way to organize your Planner projects. "
-msgstr ""
+msgid "For Todoist users, the Board View was introduced in this new update, a more visual way to organize your Planner projects."
+msgstr "Para usuários do Todoist, a Área de Visualização foi introduzida nessa atualização, uma maneira mais visual de organizar os proejtos do Tarefas. "
 
 #: src/Utils.vala:961
 #, fuzzy
@@ -199,9 +191,7 @@ msgid "Sub-project"
 msgstr "Organizar por projeto"
 
 #: src/Utils.vala:961
-msgid ""
-"One of the most requested features comes to Planner 2.6, keep your ever-"
-"growing project list neat and organized with sub-projects."
+msgid "One of the most requested features comes to Planner 2.6, keep your ever-growing project list neat and organized with sub-projects."
 msgstr ""
 
 #: src/Utils.vala:974
@@ -224,8 +214,7 @@ msgstr "Adicionar nova tarefa"
 
 #: src/Utils.vala:981
 msgid "To add a new task to Planner, just click + and press Enter."
-msgstr ""
-"Para adicionar uma nova tarefa ao Planner, apenas click + e pressione Enter."
+msgstr "Para adicionar uma nova tarefa, apenas click + e pressione Enter."
 
 #: src/Utils.vala:1036 src/Dialogs/ShortcutsDialog.vala:85
 msgid "Create a new task"
@@ -233,8 +222,7 @@ msgstr "Criar uma nova tarefa"
 
 #: src/Utils.vala:1037
 msgid "Create a new task at the top of the list (only works inside projects)"
-msgstr ""
-"Crie uma nova tarefa no topo da lista (funciona apenas dentro de projetos)"
+msgstr "Crie uma nova tarefa no topo da lista (funciona apenas dentro de projetos)"
 
 #: src/Utils.vala:1038
 msgid "Create a new area"
@@ -277,8 +265,7 @@ msgid "The request was incorrect."
 msgstr "Requisição incorreta."
 
 #: src/Utils.vala:1055
-msgid ""
-"Authentication is required, and has failed, or has not yet been provided."
+msgid "Authentication is required, and has failed, or has not yet been provided."
 msgstr "A autenticação é necessária e falhou ou ainda não foi fornecida."
 
 #: src/Utils.vala:1056
@@ -291,8 +278,7 @@ msgstr "Não foi possível encontrar o recurso solicitado."
 
 #: src/Utils.vala:1058
 msgid "The user has sent too many requests in a given amount of time."
-msgstr ""
-"O usuário enviou muitas solicitações em um determinado período de tempo."
+msgstr "O usuário enviou muitas solicitações em um determinado período de tempo."
 
 #: src/Utils.vala:1059
 msgid "The request failed due to a server error."
@@ -401,7 +387,7 @@ msgstr "Descrição:"
 
 #: src/Widgets/New.vala:115
 msgid "Parent:"
-msgstr "Pai:"
+msgstr "Responsável:"
 
 #: src/Widgets/New.vala:131 src/Dialogs/ProjectSettings.vala:197
 msgid "Color:"
@@ -429,7 +415,7 @@ msgstr "Local"
 
 #: src/Widgets/New.vala:412 src/Widgets/ProjectRow.vala:624
 msgid "No Parent"
-msgstr "Sem Pai"
+msgstr "Sem responsável"
 
 #: src/Widgets/ProjectRow.vala:126 src/Views/Inbox.vala:104
 #: src/Views/Project.vala:183 src/Dialogs/Project.vala:205
@@ -546,7 +532,7 @@ msgstr "Adicionar nota"
 #: src/Widgets/NewItem.vala:233 src/Widgets/ItemRow.vala:1704
 #: src/Widgets/ItemCompletedRow.vala:43
 msgid "Note"
-msgstr "Observação"
+msgstr "Nota"
 
 #: src/Widgets/NewItem.vala:613 src/Widgets/PriorityButton.vala:98
 #: src/Widgets/MultiSelectToolbar.vala:296 src/Views/Filter.vala:115
@@ -616,7 +602,7 @@ msgstr "Concluído. Próxima ocorrência: %s"
 
 #: src/Widgets/ItemRow.vala:1071
 msgid "1 task completed"
-msgstr "1 tarefa concluída"
+msgstr "Uma tarefa concluída"
 
 #: src/Widgets/ItemRow.vala:1460
 msgid "No Section"
@@ -756,12 +742,9 @@ msgid "Using Labels"
 msgstr "Usando etiquetas"
 
 #: src/Widgets/LabelButton.vala:101 src/Widgets/LabelButton.vala:274
-msgid ""
-"Categorize your to-dos with labels, then use them to filter your lists and "
-"get focused."
+msgid "Categorize your to-dos with labels, then use them to filter your lists and get focused."
 msgstr ""
-"Categorize suas tarefas com etiquetas e use-as para filtrar suas listas e se "
-"concentrar."
+"Categorize suas tarefas com etiquetas e use-as para filtrar suas listas e se concentrar."
 
 #: src/Widgets/LabelButton.vala:133
 msgid "Type a label"
@@ -835,9 +818,7 @@ msgstr "Adicionar lembretes"
 
 #: src/Widgets/ReminderButton.vala:221
 msgid "Never forget a task again! Have Planner send you a reminder."
-msgstr ""
-"Nunca esqueça uma tarefa novamente! Faça com que o Planner envie um lembrete "
-"para você."
+msgstr "Nunca esqueça uma tarefa novamente! Faça com que o Planner envie um lembrete para você."
 
 #: src/Widgets/ReminderButton.vala:241
 msgid "Time:"
@@ -850,16 +831,16 @@ msgstr "Adicionar Etiqueta"
 #: src/Widgets/PriorityButton.vala:35 src/Widgets/MultiSelectToolbar.vala:52
 #, fuzzy
 msgid "Priority"
-msgstr "Prioridade baixa"
+msgstr "Prioridade"
 
 #: src/Widgets/MultiSelectToolbar.vala:46
 msgid "Done"
-msgstr ""
+msgstr "Concluído"
 
 #: src/Widgets/MultiSelectToolbar.vala:182
 #, fuzzy, c-format
 msgid "Are you sure you want to delete %i tasks?"
-msgstr "Tem certeza de que deseja excluir <b>%s</b>?"
+msgstr "Tem certeza que deseja excluir %i tarefas?"
 
 #: src/Widgets/ShortcutLabel.vala:59
 msgid "Disabled"
@@ -867,35 +848,35 @@ msgstr "Desativado"
 
 #: src/Widgets/WhatsNew.vala:64
 msgid "What's New"
-msgstr ""
+msgstr "O que tem de novo"
 
 #: src/Widgets/WhatsNew.vala:88
 #, fuzzy
 msgid "Continue"
-msgstr "Conteúdo"
+msgstr "Continuar"
 
 #: src/Widgets/LabelFilter.vala:40
 msgid "Filter by Label"
-msgstr "Filtrar por etiqueta"
+msgstr "Filtrar por Etiqueta"
 
 #: src/Widgets/LabelFilter.vala:47
 #, fuzzy
 msgid "Label"
-msgstr "Etiquetas"
+msgstr "Etiqueta"
 
 #: src/Widgets/ToolsMenu.vala:44
 msgid "What's new"
-msgstr ""
+msgstr "O que tem de novo"
 
 #: src/Widgets/ToolsMenu.vala:45
 #, fuzzy
 msgid "Keyboard shortcuts"
-msgstr "Atalhos do Teclado"
+msgstr "Atalhos do teclado"
 
 #: src/Widgets/ToolsMenu.vala:110
 #, fuzzy
 msgid "Sync completed"
-msgstr "Data de conclusão"
+msgstr "Sincronização concluída"
 
 #: src/Widgets/ToolsMenu.vala:186
 msgid "Sync"
@@ -918,18 +899,18 @@ msgstr ""
 #: src/Widgets/ToolsMenu.vala:197
 #, fuzzy
 msgid "Sync…"
-msgstr "Sincronizar"
+msgstr "Sincronizando.."
 
 #: src/Widgets/ToolsMenu.vala:200 src/Widgets/ToolsMenu.vala:213
 #, fuzzy
 msgid "Sync Now"
-msgstr "Sincronizar"
+msgstr "Sincronizar Agora"
 
 #: src/Widgets/Calendar/CalendarHeader.vala:35
 #: src/Widgets/Calendar/CalendarHeader.vala:46
 #, fuzzy
 msgid "%OB"
-msgstr "%OB %Y"
+msgstr "%OB"
 
 #: src/Widgets/Calendar/CalendarHeader.vala:36
 #: src/Widgets/Calendar/CalendarHeader.vala:49
@@ -994,11 +975,11 @@ msgstr "Sincronize com sua conta Todoist."
 
 #: src/Views/Welcome.vala:30
 msgid "Import Backup"
-msgstr "Backup Importante"
+msgstr "Importar Backup"
 
 #: src/Views/Welcome.vala:30
 msgid "Import Previously Exported Planner Backup."
-msgstr "Importar backup do Planner previamente exportado."
+msgstr "Importar backup do Tarefas previamente exportado."
 
 #: src/Views/Inbox.vala:68 src/Views/Project.vala:139
 #: src/Views/Project.vala:147 src/Dialogs/Project.vala:161
@@ -1009,7 +990,7 @@ msgstr "Adicionar Seção"
 #: src/Views/Inbox.vala:76 src/Views/Project.vala:155
 #: src/Dialogs/Project.vala:177
 msgid "Invite person"
-msgstr "Convidar Pessoa"
+msgstr "Convidar alguém"
 
 #: src/Views/Inbox.vala:85 src/Views/Project.vala:164
 #: src/Dialogs/Project.vala:186
@@ -1060,12 +1041,12 @@ msgstr "Exibir Concluídas"
 #: src/Views/Inbox.vala:259 src/Views/Project.vala:567
 #: src/Dialogs/Project.vala:559
 msgid "View as board"
-msgstr ""
+msgstr "Visualizar como quadro"
 
 #: src/Views/Inbox.vala:383 src/Views/Today.vala:557 src/Views/Project.vala:716
 #: src/Dialogs/Project.vala:681
 msgid "Share on Markdown"
-msgstr "Compartilhar com Markdown"
+msgstr "Compartilhar uma remarcação"
 
 #: src/Views/Inbox.vala:384 src/Views/Today.vala:558 src/Views/Project.vala:717
 #: src/Dialogs/ShortcutsDialog.vala:105 src/Dialogs/Project.vala:682
@@ -1118,7 +1099,7 @@ msgstr "Progresso: %s"
 
 #: src/Views/Project.vala:775 src/Dialogs/Project.vala:757
 msgid "Your Productivity"
-msgstr "Sua produtividade"
+msgstr "Sua Produtividade"
 
 #: src/Views/Project.vala:780 src/Dialogs/Project.vala:762
 msgid "Progress:"
@@ -1141,7 +1122,7 @@ msgstr "Completada"
 #: src/Views/AllTasks.vala:36 src/Dialogs/QuickFind.vala:84
 #, fuzzy
 msgid "All Tasks"
-msgstr "Todas as Tarefas"
+msgstr "Todas as tarefas"
 
 #: src/Dialogs/TodoistOAuth.vala:45 src/Dialogs/TodoistOAuth.vala:113
 msgid "Loading…"
@@ -1150,7 +1131,7 @@ msgstr "Carregando…"
 #. Alert
 #: src/Dialogs/TodoistOAuth.vala:69 src/Dialogs/TodoistOAuth.vala:127
 msgid "Network Is Not Available"
-msgstr "Rede indisponível"
+msgstr "Rede Indisponível"
 
 #: src/Dialogs/TodoistOAuth.vala:70
 msgid "Connect to the Internet to connect with Todoist"
@@ -1221,7 +1202,7 @@ msgstr "Projetos"
 
 #: src/Dialogs/QuickFind.vala:482
 msgid "Enter"
-msgstr "Enter"
+msgstr "Entrar"
 
 #: src/Dialogs/QuickFind.vala:496
 msgid "Tasks"
@@ -1253,14 +1234,14 @@ msgstr "Atalhos do Teclado"
 
 #: src/Dialogs/ShortcutsDialog.vala:58
 msgid "Used anywhere"
-msgstr "Usado em qualuqer lugar"
+msgstr "Usado em qualquer lugar"
 
 #: src/Dialogs/ShortcutsDialog.vala:62
 #: src/Dialogs/Preferences/DatabaseSettings.vala:45
 #: src/Dialogs/Preferences/DatabaseSettings.vala:97
 #: src/Dialogs/Preferences/DatabaseSettings.vala:121
 msgid "Change"
-msgstr "Mudar"
+msgstr "Alterar"
 
 #: src/Dialogs/ShortcutsDialog.vala:87
 #, fuzzy
@@ -1286,7 +1267,7 @@ msgstr "Adição Rápida"
 #: src/Dialogs/ShortcutsDialog.vala:118
 #, fuzzy
 msgid "Open Quick Find"
-msgstr "Busca Rápida"
+msgstr "Abrir Busca Rápida"
 
 #: src/Dialogs/ShortcutsDialog.vala:120
 msgid "Start typing to begin a search"
@@ -1295,7 +1276,7 @@ msgstr "Comece escrevendo para começar uma busca"
 #: src/Dialogs/ShortcutsDialog.vala:122
 #, fuzzy
 msgid "Filter by priorities"
-msgstr "Organizar por prioridade"
+msgstr "Organizar por prioridades"
 
 #: src/Dialogs/ShortcutsDialog.vala:124
 msgid "Quick Find list for all labels"
@@ -1381,7 +1362,7 @@ msgstr "Aparência"
 #: src/Dialogs/Preferences/Preferences.vala:132
 #, fuzzy
 msgid "Task default"
-msgstr "Tarefa excluida"
+msgstr "Tarefa padrão"
 
 #: src/Dialogs/Preferences/Preferences.vala:133
 #: src/Dialogs/Preferences/Preferences.vala:717
@@ -1423,7 +1404,7 @@ msgstr ""
 #: src/Dialogs/Preferences/Preferences.vala:380
 #, fuzzy
 msgid "Task defaults"
-msgstr "Tarefa excluida"
+msgstr "Padrões da tarefa"
 
 #: src/Dialogs/Preferences/Preferences.vala:383
 msgid "New tasks on top"
@@ -1432,12 +1413,12 @@ msgstr "Novas tarefas em cima"
 #: src/Dialogs/Preferences/Preferences.vala:389
 #, fuzzy
 msgid "Underline completed tasks."
-msgstr "Ocultar tarefas concluídas"
+msgstr "Ocultar tarefas concluídas."
 
 #: src/Dialogs/Preferences/Preferences.vala:401
 #, fuzzy
 msgid "Default priority"
-msgstr "Organizar por prioridade"
+msgstr "Prioridade padrão"
 
 #: src/Dialogs/Preferences/Preferences.vala:412
 msgid "Indicate the position where the new tasks were created."
@@ -1453,6 +1434,8 @@ msgid ""
 "Planner creates automatic daily backups of your active projects and tasks. "
 "You can easily restore your backups anytime using project import."
 msgstr ""
+"Tarefas cria backups diários automaticamente das atividades dos seus projetos e tarefas. "
+"Você pode recuperar facilmente esses backups a qualquer momento."
 
 #: src/Dialogs/Preferences/Preferences.vala:495
 msgid "Choose which items should be counted for the badge on the application icon."
@@ -1484,7 +1467,7 @@ msgstr "Tema do Sync"
 
 #: src/Dialogs/Preferences/Preferences.vala:629
 msgid "Button layout"
-msgstr "Layout de botões"
+msgstr "Layout dos botões"
 
 #. The reason we need a restart is because GTK has to tell the
 #. window manager whether to add any window decorations *before*
@@ -1653,8 +1636,7 @@ msgid ""
 "you like Planner and want to support its development, consider donating to "
 "via:"
 msgstr ""
-"Se você gosta do Planner e deseja apoiar seu desenvolvimento, considere "
-"fazer uma doação via:"
+"Se você gosta do Tarefas e deseja apoiar seu desenvolvimento, considere fazer uma doação via:"
 
 #: src/Dialogs/Preferences/Preferences.vala:1396
 msgid ""
@@ -1758,7 +1740,7 @@ msgstr "A seção foi copiada para a área de transferência."
 
 #, fuzzy
 #~ msgid "Delete taks"
-#~ msgstr "Excluir tarefa"
+#~ msgstr "Excluir tarefas"
 
 #~ msgid "New Quick Find button position."
 #~ msgstr "Novo botão Busca Rápida."
@@ -2005,7 +1987,7 @@ msgstr "A seção foi copiada para a área de transferência."
 
 #, fuzzy
 #~ msgid "Move to Folder"
-#~ msgstr "Mover para a área"
+#~ msgstr "Mover para pasta"
 
 # Estava como ocultando,mas acabou não fazendo muito sentido com o contexto do app
 #~ msgid "Hiding"
@@ -2051,7 +2033,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ msgstr "Atualizar erro do projeto todoist"
 
 #~ msgid "Status Code: %u"
-#~ msgstr "Código do status:%u"
+#~ msgstr "Código do status: %u"
 
 #~ msgid "Delete todoist project error"
 #~ msgstr "Excluir erro do projeto todoist"
@@ -2060,7 +2042,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ msgstr "Erro na seção Criar Todoist"
 
 #~ msgid "Update todoist section error"
-#~ msgstr "Atualizar erro da seção todoist"
+#~ msgstr "Atualizar erro da seção do Todoist"
 
 #~ msgid "Connection error"
 #~ msgstr "Erro de conexão"
@@ -2069,7 +2051,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ msgstr "Atualizar erro do item todoist"
 
 #~ msgid "Fund"
-#~ msgstr "Fundo"
+#~ msgstr "Fundos"
 
 #~ msgid "Credits"
 #~ msgstr "Créditos"
@@ -2084,7 +2066,7 @@ msgstr "A seção foi copiada para a área de transferência."
 
 #, fuzzy
 #~ msgid "How Planner works:"
-#~ msgstr "Como o Planejador funciona:"
+#~ msgstr "Como o Tarefas funciona:"
 
 #, fuzzy
 #~ msgid ""
@@ -2165,19 +2147,19 @@ msgstr "A seção foi copiada para a área de transferência."
 
 #, fuzzy
 #~ msgid "Colors"
-#~ msgstr "Cor"
+#~ msgstr "Cores"
 
 #, fuzzy
 #~ msgid "Project color"
-#~ msgstr "Novo projeto"
+#~ msgstr "Cor do projeto"
 
 #, fuzzy
 #~ msgid "Move section"
-#~ msgstr "Localização"
+#~ msgstr "Mover seção"
 
 #, fuzzy
 #~ msgid "Edit area"
-#~ msgstr "Editar etiqueta"
+#~ msgstr "Editar área"
 
 #~ msgid "AM"
 #~ msgstr "AM"
@@ -2195,7 +2177,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ "special task, all this in Markdown."
 #~ msgstr ""
 #~ "Compartilhe todo o progresso do seu projeto ou alguma tarefa especial, "
-#~ "tudo isso em Markdown"
+#~ "tudo isso em Remarcar"
 
 #, fuzzy
 #~ msgid "Add a new subtask"
@@ -2225,7 +2207,7 @@ msgstr "A seção foi copiada para a área de transferência."
 
 #, fuzzy
 #~ msgid "Your project was exported correctly"
-#~ msgstr "Seu projeto foi compartilhado corretamente"
+#~ msgstr "Seu projeto foi exportado corretamente"
 
 #, fuzzy
 #~ msgid "Your project was imported correctly"
@@ -2276,7 +2258,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ msgstr "mantenha suas tarefas organizadas em projetos"
 
 #~ msgid "Notes"
-#~ msgstr "Observações"
+#~ msgstr "Notas"
 
 #~ msgid "Select Your Favorite Color"
 #~ msgstr "Selecione sua cor favorita"
@@ -2291,7 +2273,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ msgstr "Entre com um usuário válido"
 
 #~ msgid "Forgot password…"
-#~ msgstr "Esquecer senha..."
+#~ msgstr "Esquecer senha…"
 
 #~ msgid "Don't have an account? Sign Up"
 #~ msgstr "Não tem uma conta? Registre-se"
@@ -2301,7 +2283,7 @@ msgstr "A seção foi copiada para a área de transferência."
 
 #, fuzzy
 #~ msgid "Update issues"
-#~ msgstr "Atualizar"
+#~ msgstr "Problemas de atualização"
 
 #, fuzzy
 #~ msgid "Are you sure you want to delete your Github account?"
@@ -2320,14 +2302,13 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ msgstr "Limão"
 
 #~ msgid "Slate"
-#~ msgstr "Slate"
+#~ msgstr "Ardósia"
 
 #~ msgid "Pink"
 #~ msgstr "Rosa"
 
 #~ msgid "Choose that page should be first initial when Planner is open."
-#~ msgstr ""
-#~ "Escolha qual a página é exibida inicialmente quando o Planner é aberto."
+#~ msgstr "Escolha qual a página é exibida inicialmente quando o Planner é aberto."
 
 #~ msgid "Items"
 #~ msgstr "Itens"
@@ -2469,13 +2450,13 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ msgstr "Ir ao GitHub"
 
 #~ msgid "1. Collect your Ideas"
-#~ msgstr "1. Guarde suas ideias"
+#~ msgstr "1. Reun suas Ideias"
 
 #~ msgid "2. Get Organized"
-#~ msgstr "2.Se Organize"
+#~ msgstr "2. Organize-se"
 
 #~ msgid "3. Calendar and Events"
-#~ msgstr "3. Calendário e eventos"
+#~ msgstr "3. Calendário e Eventos"
 
 #~ msgid "4. Be even more organized"
 #~ msgstr "4. Seja ainda mais organizado"
