@@ -235,8 +235,8 @@ public class Planner : Gtk.Application {
         utils.update_font_scale ();
 
         // Set Theme and Icon
-        Gtk.Settings.get_default ().set_property ("gtk-icon-theme-name", "elementary");
-        Gtk.Settings.get_default ().set_property ("gtk-theme-name", "elementary");
+        Gtk.Settings.get_default ().set_property ("gtk-icon-theme-name", "elementary-xfce");
+        Gtk.Settings.get_default ().set_property ("gtk-theme-name", "Greybird");
 
         // Path Theme
         //  if (utils.is_flatpak ()) {
