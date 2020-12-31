@@ -52,8 +52,8 @@ public class MainWindow : Gtk.Window {
         Object (
             application: application,
             app: application,
-            icon_name: "com.github.alainm23.planner",
-            title: _("Planner"),
+            icon_name: "gnome-todo-desktop",
+            title: _("Tarefas"),
             height_request: 400,
             width_request: 400
         );
