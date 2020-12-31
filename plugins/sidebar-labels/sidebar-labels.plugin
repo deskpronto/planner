@@ -2,8 +2,8 @@
 Module=sidebar-labels
 Loader=C
 IAge=2
-Name=Sidebar Labels
-Description=Show your labels in the sidebar.
+Name=Etiqetas na Barra Lateral
+Description=Mostre suas etiquetas na barras lateral.
 Icon=tag
 Authors=Alain M. <alainhuntt@gmail.com>
 Copyright=Copyright © 2020 Planner
