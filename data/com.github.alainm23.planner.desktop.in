@@ -1,10 +1,10 @@
 [Desktop Entry]
-Name=Planner
-GenericName=Planner
-Comment=Never worry about forgetting things again
+Name=Tarefas
+GenericName=Tarefas
+Comment=
 Categories=Utility;Office;ProjectManagement;Calendar;
 Exec=com.github.alainm23.planner
-Icon=com.github.alainm23.planner
+Icon=gnome-todo-desktop
 Terminal=false
 Type=Application
 StartupNotify=true
