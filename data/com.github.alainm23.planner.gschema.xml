@@ -69,7 +69,7 @@
         </key>
 
         <key name="appearance" enum="com.github.alainm23.planner.appearance">
-            <default>"Light"</default>
+            <default>"Arc Dark"</default>
             <summary></summary>
             <description></description>
         </key>
