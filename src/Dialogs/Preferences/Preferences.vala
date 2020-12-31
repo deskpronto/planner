@@ -129,7 +129,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         var start_page_item = new Dialogs.Preferences.Item ("go-home", _("Homepage"));
         var badge_item = new Dialogs.Preferences.Item ("planner-badge-count", _("Badge Count"));
         var theme_item = new Dialogs.Preferences.Item ("preferences-color", _("Appearance"));
-        var task_item = new Dialogs.Preferences.Item ("process-completed", _("Task default"));
+        var task_item = new Dialogs.Preferences.Item ("process-completed", _("Padrões de Tarefas"));
         var quick_add_item = new Dialogs.Preferences.Item ("planner-quick-add", _("Quick Add"));
         // var backups_item = new Dialogs.Preferences.Item ("drive-harddisk", _("Backups"));
         var general_item = new Dialogs.Preferences.Item ("preferences-system", _("General"), true);
@@ -153,7 +153,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         addons_label.margin_start = 6;
 
         var todoist_item = new Dialogs.Preferences.Item ("planner-todoist", "Todoist");
-        var plugins_item = new Dialogs.Preferences.Item ("extension", "Plugins");
+        var plugins_item = new Dialogs.Preferences.Item ("extension", "Complementos");
         var calendar_item = new Dialogs.Preferences.Item ("x-office-calendar", _("Calendar Events"));
         var labels_item = new Dialogs.Preferences.Item ("tag", _("Labels"));
         var shortcuts_item = new Dialogs.Preferences.Item ("preferences-desktop-keyboard", _("Keyboard Shortcuts"), true);

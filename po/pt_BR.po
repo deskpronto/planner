@@ -179,7 +179,7 @@ msgstr "Tarefas %s está aqui, com muitas melhoras de design, novas funções, e
 #: src/Utils.vala:960
 #, fuzzy
 msgid "New Board View"
-msgstr "Nova Área de Visualização"
+msgstr "Nova Visualização em Quadros"
 
 #: src/Utils.vala:960
 msgid "For Todoist users, the Board View was introduced in this new update, a more visual way to organize your Planner projects."
@@ -848,7 +848,7 @@ msgstr "Desativado"
 
 #: src/Widgets/WhatsNew.vala:64
 msgid "What's New"
-msgstr "O que tem de novo"
+msgstr "O que tem de novo?"
 
 #: src/Widgets/WhatsNew.vala:88
 #, fuzzy
@@ -866,12 +866,12 @@ msgstr "Etiqueta"
 
 #: src/Widgets/ToolsMenu.vala:44
 msgid "What's new"
-msgstr "O que tem de novo"
+msgstr "O que tem de novo?"
 
 #: src/Widgets/ToolsMenu.vala:45
 #, fuzzy
 msgid "Keyboard shortcuts"
-msgstr "Atalhos do teclado"
+msgstr "Atalhos de teclado"
 
 #: src/Widgets/ToolsMenu.vala:110
 #, fuzzy
@@ -1230,7 +1230,7 @@ msgstr "Sem seção"
 #: src/Dialogs/Preferences/Preferences.vala:159
 #: src/Dialogs/Preferences/Preferences.vala:733
 msgid "Keyboard Shortcuts"
-msgstr "Atalhos do Teclado"
+msgstr "Atalhos do teclado"
 
 #: src/Dialogs/ShortcutsDialog.vala:58
 msgid "Used anywhere"
@@ -1315,7 +1315,7 @@ msgstr "Mover a janela do projeto para a direita"
 #: src/Dialogs/ShortcutsDialog.vala:147
 #, fuzzy
 msgid "Open Keyboard Shortcuts"
-msgstr "Atalhos do Teclado"
+msgstr "Abrir Atalhos do Teclado"
 
 #: src/Dialogs/ShortcutsDialog.vala:149
 #, fuzzy
@@ -1505,7 +1505,7 @@ msgstr "Pressione as teclas…"
 
 #: src/Dialogs/Preferences/Preferences.vala:772
 msgid "Change Keyboard Shortcut"
-msgstr "Atalhos do Teclado"
+msgstr "Alterar Atalhos do Teclado"
 
 #: src/Dialogs/Preferences/Preferences.vala:781
 msgid "Save Last Selected Project"

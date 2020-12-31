@@ -42,7 +42,7 @@ public class Widgets.ToolsMenu : Gtk.Revealer {
 
         var preferences_menu = new Widgets.ToolMenuItem (_("Preferences"), {"Ctrl", ","});
         var whats_new_menu = new Widgets.ToolMenuItem (_("What's new"), {});
-        var keyboard_menu = new Widgets.ToolMenuItem (_("Keyboard shortcuts"), {"f1"});
+        var keyboard_menu = new Widgets.ToolMenuItem (_("Atalhos de teclado"), {"f1"});
 
         sync_menu = new Widgets.SyncButton ();
         sync_menu.visible = Planner.settings.get_boolean ("todoist-account");

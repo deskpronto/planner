@@ -99,7 +99,7 @@
         </key>
 
         <key name="window-maximized" type="b">
-            <default>false</default>
+            <default>true</default>
             <summary>Whether the window was maximized on last run</summary>
             <description>Whether the window was maximized on last run</description>
         </key>

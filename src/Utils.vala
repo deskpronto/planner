@@ -955,10 +955,10 @@ public class Utils : GLib.Object {
     }
 
     public void open_whats_new_dialog () {
-        var dialog = new Widgets.WhatsNew ("com.github.alainm23.planner", _("Planner %s is here, with many design improvements, new features, and more.".printf (Constants.VERSION)));
+        var dialog = new Widgets.WhatsNew ("Tarefas", _("Tarefas %s está aqui, com muitas melhorais no design, novas funções, e mais.".printf (Constants.VERSION)));
 
-        dialog.append ("align-vertical-top", _("New Board View"), _("For Todoist users, the Board View was introduced in this new update, a more visual way to organize your Planner projects. "));
-        dialog.append ("help-about", _("Sub-project"), _("One of the most requested features comes to Planner 2.6, keep your ever-growing project list neat and organized with sub-projects."));
+        dialog.append ("align-vertical-top", _("Nova Visualização em Quadros"), _("Para usuários do Todoist, a Visualização em Quadros foi introduzida nessa atualização como uma maneira mais visual de organizar seus projetos."));
+        dialog.append ("help-about", _("Subprojetos"), _("Uma das função mais pedidas finalmente chegou ao Tarefas. Mantenha sua lista crescente de projetos sempre organizada e com subprojetos."));
 
         dialog.show_all ();
         dialog.present ();
