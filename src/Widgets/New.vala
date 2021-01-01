@@ -200,7 +200,7 @@ public class Widgets.New : Gtk.Revealer {
         box.pack_end (action_bar, false, false, 0);
 
         var close_image = new Gtk.Image ();
-        close_image.gicon = new ThemedIcon ("close-symbolic");
+        close_image.gicon = new ThemedIcon ("close-view-symbolic");
         close_image.pixel_size = 12;
 
         var close_button = new Gtk.Button ();

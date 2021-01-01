@@ -192,7 +192,7 @@ msgstr "Organizar por projeto"
 
 #: src/Utils.vala:961
 msgid "One of the most requested features comes to Planner 2.6, keep your ever-growing project list neat and organized with sub-projects."
-msgstr ""
+msgstr "Uma das função mais pedidas finalmente chegou ao Tarefas. Mantenha sua lista crescente de projetos sempre organizada e com subprojetos"
 
 #: src/Utils.vala:974
 msgid "🚀️ Getting Started"
@@ -1523,8 +1523,8 @@ msgid ""
 "closes. This will allow Planner to continue updating and sending reminder "
 "notifications."
 msgstr ""
-"Ative essa opção para manter o Planner rodando em segundo plano quando ele "
-"for fechado. Isso fará com que o Planner continue atualizando e enviando "
+"Ative essa opção para manter o Tarefas rodando em segundo plano quando ele "
+"for fechado. Isso fará com que o Tarefas continue atualizando e enviando "
 "lembretes de notificações."
 
 #: src/Dialogs/Preferences/Preferences.vala:916
@@ -1533,7 +1533,7 @@ msgstr "Executar ao iniciar"
 
 #: src/Dialogs/Preferences/Preferences.vala:920
 msgid "Enable this setting to make Planner startup with the system."
-msgstr "Ativar essa opção para iniciar o Planner junto com o sistema."
+msgstr "Ativar essa opção para iniciar o Tarefas junto com o sistema."
 
 #. var database_settings = new Dialogs.Preferences.DatabaseSettings ();
 #: src/Dialogs/Preferences/Preferences.vala:928
@@ -1596,7 +1596,7 @@ msgid ""
 "Activate this setting so that Planner automatically synchronizes with your "
 "Todoist account every 15 minutes."
 msgstr ""
-"Ative essa configuração para que o Planner seja sincronizado automaticamente "
+"Ative essa configuração para que o Tarefas seja sincronizado automaticamente "
 "com sua conta Todoist a cada 15 minutos."
 
 #: src/Dialogs/Preferences/Preferences.vala:1200
@@ -1619,7 +1619,7 @@ msgid ""
 "shared calendars in <b>Today</b> and <b>Upcoming</b>. This is useful when "
 "you’re managing your day, and as you plan the week ahead."
 msgstr ""
-"Você pode conectar seu aplicativo <b>Calendário</b> ao Planner para ver seus "
+"Você pode conectar seu aplicativo <b>Calendário</b> ao Tarefas para ver seus "
 "eventos e tarefas juntos em um só lugar. Você verá eventos da agenda pessoal "
 "e compartilhada em <b>Hoje</b> e <b>Próximos</b>. Isso é útil quando você "
 "gerencia o seu dia, e ao planejar a semana seguinte."
@@ -1855,7 +1855,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ "- When your task is created, click on the task to be able to edit it, add "
 #~ "a note or some other options."
 #~ msgstr ""
-#~ "- Para adicionar uma nova tarefa ao Planner, clique em + e pressione "
+#~ "- Para adicionar uma nova tarefa ao Tarefas, clique em + e pressione "
 #~ "Enter.\n"
 #~ "- Quando sua tarefa for criada, clique nela para poder editá-la, "
 #~ "adicionar uma nota ou outras opções."
@@ -1915,7 +1915,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ "- Type the name of your section and click Add."
 #~ msgstr ""
 #~ "- É sempre mais fácil assumir um grande projeto quando você o divide em "
-#~ "partes de fácil gerenciamento usando as seções do Planner.\n"
+#~ "partes de fácil gerenciamento usando as seções do Tarefas.\n"
 #~ "- Organize seus projetos com seções para agrupar suas tarefas e obter uma "
 #~ "melhor visão geral do que precisa ser feito. Adicione seções ao seu "
 #~ "projeto, arraste as tarefas relevantes para a seção em que pertencem e "
@@ -2069,7 +2069,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ "that the task goes into a project."
 #~ msgstr ""
 #~ "1. Guarde suas Ideias - A caixa de entrada é sua lista de tarefas padrão "
-#~ "no Planner. Quando você adiciona uma tarefa, ela vai direto para sua "
+#~ "no Tarefas. Quando você adiciona uma tarefa, ela vai direto para sua "
 #~ "caixa de entrada, a menos que você especifique um projeto para ela."
 
 #, fuzzy
@@ -2087,7 +2087,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ "effectively. Planner will remind you on the right day."
 #~ msgstr ""
 #~ "Veja os eventos do seu calendário e planeje seu tempo com eficiência. "
-#~ "Planner irá lembrá-lo no dia certo."
+#~ "Tarefas irá lembrá-lo no dia certo."
 
 #, fuzzy
 #~ msgid ""
@@ -2109,7 +2109,7 @@ msgstr "A seção foi copiada para a área de transferência."
 
 #, fuzzy
 #~ msgid "Planner 2 is here..."
-#~ msgstr "Tarefas 2.6.3 chegou..."
+#~ msgstr "O Tarefas 2.6.3 chegou..."
 
 #, fuzzy
 #~ msgid "Labels preview"
@@ -2302,7 +2302,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ msgstr "Rosa"
 
 #~ msgid "Choose that page should be first initial when Planner is open."
-#~ msgstr "Escolha qual a página é exibida inicialmente quando o Planner é aberto."
+#~ msgstr "Escolha qual a página é exibida inicialmente quando o Tarefas é aberto."
 
 #~ msgid "Items"
 #~ msgstr "Itens"
@@ -2360,7 +2360,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ msgstr "Suporte"
 
 #~ msgid "Let Planner run in background and send notifications."
-#~ msgstr "Deixe o Planner rodar em segundo plano e enviar notificações."
+#~ msgstr "Deixe o Tarefas rodar em segundo plano e enviar notificações."
 
 #~ msgid "Launch at Login"
 #~ msgstr "Executar ao inicar"
