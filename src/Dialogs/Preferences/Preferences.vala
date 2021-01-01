@@ -358,7 +358,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
     }
 
     private Gtk.Widget get_task_widget () {
-        var top_box = new Dialogs.Preferences.TopBox ("go-home", _("Task defaults"));
+        var top_box = new Dialogs.Preferences.TopBox ("gnome-menu", _("Task defaults"));
 
         var new_tasks_position_switch = new Dialogs.Preferences.ItemSwitch (
             _("New tasks on top"),
@@ -1267,7 +1267,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
     }
 
     private Gtk.Widget get_calendar_widget () {
-        var top_box = new Dialogs.Preferences.TopBox ("office-calendar", _("Calendar Events"));
+        var top_box = new Dialogs.Preferences.TopBox ("orage", _("Calendar Events"));
 
         var description_label = new Gtk.Label (
             _("You can connect your <b>Calendar</b> app to Planner to see your events and to-dos together in one place. You’ll see events from both personal and shared calendars in <b>Today</b> and <b>Upcoming</b>. This is useful when you’re managing your day, and as you plan the week ahead.") // vala-lint=line-length
