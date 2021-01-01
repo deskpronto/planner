@@ -1,5 +1,5 @@
-/*/
-*- Copyright © 2020 Alain M. (https://github.com/alainm23/planner)
+/*
+* Copyright © 2021 Sync (https://syncyou.app)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -16,7 +16,7 @@
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
 *
-* Authored by: Alain M. <alainmh23@gmail.com>
+* Authored by: Sync <info@syncyou.app>
 */
 
 public class Widgets.WhatsNew : Gtk.Dialog {
@@ -54,7 +54,7 @@ public class Widgets.WhatsNew : Gtk.Dialog {
     construct {
         get_style_context ().add_class ("release-dialog");
         width_request = 525;
-        height_request = 600;
+        height_request = 400;
 
         app_icon = new Gtk.Image ();
         app_icon.halign = Gtk.Align.CENTER;

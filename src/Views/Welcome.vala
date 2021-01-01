@@ -1,5 +1,5 @@
 /*
-* Copyright © 2019 Alain M. (https://github.com/alainm23/planner)
+* Copyright © 2021 Sync (https://syncyou.app)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -16,14 +16,14 @@
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
 *
-* Authored by: Alain M. <alainmh23@gmail.com>
+* Authored by: Sync <info@syncyou.app>
 */
 
 public class Views.Welcome : Gtk.EventBox {
     public signal void activated (int index);
 
     construct {
-        var welcome = new Granite.Widgets.Welcome ("Planner", _("Never worry about forgetting things again"));
+        var welcome = new Granite.Widgets.Welcome ("Tarefas", _("Never worry about forgetting things again"));
         welcome.margin_bottom = 48;
         welcome.append ("help-about", _("Startup"), _("Start Working Locally."));
         welcome.append ("planner-todoist", _("Todoist"), _("Synchronize with your Todoist Account."));

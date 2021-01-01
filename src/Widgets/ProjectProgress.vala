@@ -1,17 +1,23 @@
-/* -*- Mode: Vala; indent-tabs-mode: nil; c-basic-offset: 4; tab-width: 4 -*- */
-/* vim: set tabstop=4 softtabstop=4 shiftwidth=4 expandtab : */
 /*
- * CircularProgressBar.vala
- *
- * Custom Gtk.Widget to provide a circular progress bar.
- * It extends/subclasses Gtk.Bin instead of Gtk.DrawingArea.
- *
- * Colors, font and some parameters could move onto CSS but for simplicity will be kept inline.
- * Minimum size is hardcoded on min_d. Minimum line width is 1.
- *
- * José Miguel Fonte
- * https://github.com/phastmike/vala-circular-progress-bar
- */
+* Copyright © 2021 Sync (https://syncyou.app)
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public
+* License as published by the Free Software Foundation; either
+* version 3 of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* General Public License for more details.
+*
+* You should have received a copy of the GNU General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA 02110-1301 USA
+*
+* Authored by: Sync <info@syncyou.app>
+*/
 
 using Gtk;
 using Cairo;

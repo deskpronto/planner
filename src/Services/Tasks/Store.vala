@@ -1,5 +1,5 @@
 /*
-* Copyright 2020 elementary, Inc. (https://elementary.io)
+* Copyright © 2021 Sync (https://syncyou.app)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -16,8 +16,8 @@
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
 *
+* Authored by: Sync <info@syncyou.app>
 */
-
 
 errordomain TaskModelError {
     CLIENT_NOT_AVAILABLE
