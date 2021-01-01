@@ -4,9 +4,9 @@
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Tarefas</name>
-  <summary>Never worry about forgetting things again</summary>
+  <summary>Não se preocupe em esquecer algo novamente</summary>
   <description>
-    <p>🚀️ Tarefas 2.6 chegou..</p>
+    <p>🚀️ Tarefas 2.6.3 chegou..</p>
   </description>
   <provides>
     <binary>com.github.alainm23.planner</binary>
