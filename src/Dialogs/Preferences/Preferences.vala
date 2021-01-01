@@ -70,8 +70,6 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         stack.add_named (get_general_widget (), "general");
         stack.add_named (get_labels_widget (), "labels");
         stack.add_named (get_calendar_widget (), "calendar");
-        stack.add_named (get_about_widget (), "about");
-        stack.add_named (get_fund_widget (), "fund");
 
         Timeout.add (125, () => {
             stack.visible_child_name = view;
@@ -169,7 +167,6 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         addons_grid.valign = Gtk.Align.START;
         addons_grid.get_style_context ().add_class ("preferences-view");
         addons_grid.orientation = Gtk.Orientation.VERTICAL;
-        addons_grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
         addons_grid.add (todoist_item);
         addons_grid.add (calendar_item);
         addons_grid.add (labels_item);
@@ -177,20 +174,12 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         // addons_grid.add (shortcuts_item);
         addons_grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
 
-        /* Others */
-        var about_item = new Dialogs.Preferences.Item ("dialog-information", _("About"));
-        var fund_item = new Dialogs.Preferences.Item ("help-about", _("Support & Credits"), true);
-
         var others_grid = new Gtk.Grid ();
         others_grid.margin_top = 18;
         others_grid.margin_bottom = 3;
         others_grid.valign = Gtk.Align.START;
         others_grid.get_style_context ().add_class ("preferences-view");
         others_grid.orientation = Gtk.Orientation.VERTICAL;
-        others_grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
-        others_grid.add (about_item);
-        others_grid.add (fund_item);
-        others_grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
 
         var main_grid = new Gtk.Grid ();
         main_grid.orientation = Gtk.Orientation.VERTICAL;
@@ -255,14 +244,6 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
 
         calendar_item.activated.connect (() => {
             stack.visible_child_name = "calendar";
-        });
-
-        about_item.activated.connect (() => {
-            stack.visible_child_name = "about";
-        });
-
-        fund_item.activated.connect (() => {
-            stack.visible_child_name = "fund";
         });
 
         //  backups_item.activated.connect (() => {
@@ -1357,192 +1338,6 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         Planner.settings.changed.connect ((key) => {
             if (key == "calendar-enabled") {
                 revealer.reveal_child = Planner.settings.get_boolean ("calendar-enabled");
-            }
-        });
-
-        return main_box;
-    }
-
-    private Gtk.Widget get_fund_widget () {
-        var top_box = new Dialogs.Preferences.TopBox ("face-heart", _("Support & Credits"));
-
-        var description_label = new Gtk.Label (
-            _("Planner is being developed with ❤️ and passion for Open Source. However, if you like Planner and want to support its development, consider donating to via:")
-        );
-        description_label.margin = 6;
-        description_label.use_markup = true;
-        description_label.margin_bottom = 12;
-        description_label.margin_start = 12;
-        description_label.margin_end = 12;
-        description_label.justify = Gtk.Justification.FILL;
-        description_label.wrap = true;
-        description_label.xalign = 0;
-
-        var paypal_icon = new Gtk.Image.from_resource ("/com/github/alainm23/planner/paypal.svg");
-        var paypal_button = new Gtk.Button ();
-        paypal_button.can_focus = false;
-        paypal_button.get_style_context ().add_class ("flat");
-        paypal_button.margin_start = paypal_button.margin_end = 12;
-        paypal_button.image = paypal_icon;
-
-        var patreon_icon = new Gtk.Image.from_resource ("/com/github/alainm23/planner/become_a_patron.svg");
-        var patreon_button = new Gtk.Button ();
-        patreon_button.can_focus = false;
-        patreon_button.get_style_context ().add_class ("flat");
-        patreon_button.margin_start = patreon_button.margin_end = 12;
-        patreon_button.image = patreon_icon;
-
-        var description_02_label = new Gtk.Label (
-            _("Thanks to them who made a donation via Patreon or PayPal. (If you want to appear here visit our Patreon account 😉️)")
-        );
-        description_02_label.margin = 6;
-        description_02_label.use_markup = true;
-        description_02_label.margin_start = 12;
-        description_02_label.margin_end = 12;
-        description_02_label.justify = Gtk.Justification.FILL;
-        description_02_label.wrap = true;
-        description_02_label.xalign = 0;
-
-        var listbox = new Gtk.ListBox ();
-        listbox.activate_on_single_click = true;
-        listbox.selection_mode = Gtk.SelectionMode.SINGLE;
-        listbox.get_style_context ().add_class ("background");
-        listbox.expand = true;
-        foreach (var person in Planner.utils.get_patrons ()) {
-            listbox.add (new PreferencePerson (person));
-        }
-        listbox.show_all ();
-
-        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-        box.hexpand = true;
-
-        box.pack_start (description_label, false, false, 0);
-        box.pack_start (paypal_button, false, false, 6);
-        box.pack_start (patreon_button, false, false, 6);
-        box.pack_start (description_02_label, false, false, 6);
-        box.pack_start (new Gtk.Separator (Gtk.Orientation.HORIZONTAL), false, false, 0);
-        box.pack_start (listbox, false, false, 0);
-
-        var box_scrolled = new Gtk.ScrolledWindow (null, null);
-        box_scrolled.hscrollbar_policy = Gtk.PolicyType.NEVER;
-        box_scrolled.expand = true;
-        box_scrolled.add (box);
-
-        var main_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 6);
-        main_box.expand = true;
-
-        main_box.pack_start (top_box, false, false, 0);
-        main_box.pack_start (box_scrolled, false, true, 0);
-
-        top_box.back_activated.connect (() => {
-            stack.visible_child_name = "home";
-        });
-
-        paypal_button.clicked.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri ("https://www.paypal.me/alainm23", null);
-            } catch (Error e) {
-                warning ("%s\n", e.message);
-            }
-        });
-
-        patreon_button.clicked.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri ("https://www.patreon.com/alainm23", null);
-            } catch (Error e) {
-                warning ("%s\n", e.message);
-            }
-        });
-
-        return main_box;
-    }
-
-    private Gtk.Widget get_about_widget () {
-        var top_box = new Dialogs.Preferences.TopBox ("office-calendar", _("About"));
-
-        var app_icon = new Gtk.Image ();
-        app_icon.gicon = new ThemedIcon ("com.github.alainm23.planner");
-        app_icon.pixel_size = 64;
-        app_icon.margin_top = 12;
-
-        var app_name = new Gtk.Label ("Planner");
-        app_name.get_style_context ().add_class ("h3");
-        app_name.margin_top = 6;
-
-        var version_label = new Gtk.Label (Constants.VERSION);
-        version_label.get_style_context ().add_class ("dim-label");
-
-        var web_item = new Dialogs.Preferences.Item ("web-browser", _("Website"));
-        var github_item = new Dialogs.Preferences.Item ("github", _("Github"));
-        var twitter_item = new Dialogs.Preferences.Item ("online-account-twitter", _("Follow"));
-        var issue_item = new Dialogs.Preferences.Item ("bug", _("Report a Problem"));
-        var translation_item = new Dialogs.Preferences.Item ("config-language", _("Suggest Translations"), true);
-
-        var grid = new Gtk.Grid ();
-        grid.margin_top = 24;
-        grid.valign = Gtk.Align.START;
-        grid.get_style_context ().add_class ("preferences-view");
-        grid.orientation = Gtk.Orientation.VERTICAL;
-        grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
-        grid.add (web_item);
-        grid.add (github_item);
-        grid.add (twitter_item);
-        grid.add (issue_item);
-        grid.add (translation_item);
-        grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
-
-        var main_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-        main_box.expand = true;
-
-        main_box.pack_start (top_box, false, false, 0);
-        main_box.pack_start (app_icon, false, true, 0);
-        main_box.pack_start (app_name, false, true, 0);
-        main_box.pack_start (version_label, false, true, 0);
-        main_box.pack_start (grid, false, false, 0);
-
-        top_box.back_activated.connect (() => {
-            stack.visible_child_name = "home";
-        });
-
-        web_item.activated.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri ("https://planner-todo.web.app", null);
-            } catch (Error e) {
-                warning ("%s\n", e.message);
-            }
-        });
-
-        github_item.activated.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri ("https://github.com/alainm23/planner", null);
-            } catch (Error e) {
-                warning ("%s\n", e.message);
-            }
-        });
-
-        twitter_item.activated.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri ("https://twitter.com/planner_todo", null);
-            } catch (Error e) {
-                warning ("%s\n", e.message);
-            }
-        });
-
-        issue_item.activated.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri ("https://github.com/alainm23/planner/issues", null);
-            } catch (Error e) {
-                warning ("%s\n", e.message);
-            }
-        });
-
-        translation_item.activated.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri (
-                    "https://github.com/alainm23/planner/tree/master/po#translating-planner", null
-                );
-            } catch (Error e) {
-                warning ("%s\n", e.message);
             }
         });
 
