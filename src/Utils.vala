@@ -1,7 +1,7 @@
 // vala-lint=skip-file
 
 /*
-* Copyright © 2019 Alain M. (https://github.com/alainm23/planner)
+* Copyright © 2021 Sync (https://syncyou.app)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -18,7 +18,7 @@
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
 *
-* Authored by: Alain M. <alainmh23@gmail.com>
+* Authored by: Sync <info@syncyou.app>
 */
 
 public class Utils : GLib.Object {
@@ -810,13 +810,13 @@ public class Utils : GLib.Object {
 
                 Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             } else if (appearance_mode == 3) {
-                 base_color = "#353945";
+                 base_color = "#3C4359";
                  check_border_color = "grey";
-                 projectview_color = "#404552";
-                 pane_color = "#353945";
+                 projectview_color = "#363F56";
+                 pane_color = "#3C4359";
                  pane_selected_color = "#2B303B";
                  pane_text_color = "#fefeff";
-                 popover_background = "#353945";
+                 popover_background = "#3C4359";
                  row_selected_color = "shade (@projectview_color, 0.3)";
                  upcoming_color = "#a970ff";
 

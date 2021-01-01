@@ -22,7 +22,7 @@ msgstr ""
 #: data/com.github.alainm23.planner.desktop.in:4
 #: data/com.github.alainm23.planner.appdata.xml.in:7
 msgid "Planner"
-msgstr "Planner"
+msgstr "Tarefas"
 
 #: data/com.github.alainm23.planner.desktop.in:5
 #: data/com.github.alainm23.planner.appdata.xml.in:8
@@ -31,7 +31,7 @@ msgstr "Não se preocupe em esquecer algo novamente"
 
 #: data/com.github.alainm23.planner.desktop.in:8
 msgid "com.github.alainm23.planner"
-msgstr "com.github.alainm23.planner"
+msgstr "Tarefas"
 
 #: data/com.github.alainm23.planner.desktop.in:13
 msgid "development;task;tasks;project;todo;event;events;calendar;todoist;"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: data/com.github.alainm23.planner.appdata.xml.in:10
 msgid "🚀️ Planner 2 is here..."
-msgstr "🚀️ O Planner 2 está aqui..."
+msgstr "🚀️ Tarefas 2 está aqui..."
 
 #: data/com.github.alainm23.planner.appdata.xml.in:12
 #: data/com.github.alainm23.planner.appdata.xml.in:333
@@ -108,7 +108,7 @@ msgstr ""
 
 #: data/com.github.alainm23.planner.appdata.xml.in:25
 msgid "How Planner works:"
-msgstr "Como o Planner funciona:"
+msgstr "Como o Tarefas funciona:"
 
 #: data/com.github.alainm23.planner.appdata.xml.in:26
 msgid ""
@@ -164,7 +164,7 @@ msgstr ""
 
 #: data/com.github.alainm23.planner.appdata.xml.in:36
 msgid "* Planner not created by, affiliated with, or supported by Doist"
-msgstr "* O Planner não é criado, afiliado ou suportado pelo Todoist"
+msgstr "* O Tarefas não é criado, afiliado ou suportado pelo Todoist"
 
 #: data/com.github.alainm23.planner.appdata.xml.in:38
 msgid "💎️ Other features:"
@@ -184,21 +184,19 @@ msgstr "🌙️ Modo noturno"
 
 #: data/com.github.alainm23.planner.appdata.xml.in:51
 msgid "Merry Christmas everyone, Planner 2.6 is here."
-msgstr ""
+msgstr "Feliz Natal para todos, Tarefas 2.8 chegou."
 
 #: data/com.github.alainm23.planner.appdata.xml.in:53
 #, fuzzy
 msgid "New Board View"
-msgstr "Nova visualização 'Créditos'"
+msgstr "Nova Visualização em Quadros"
 
 #: data/com.github.alainm23.planner.appdata.xml.in:54
 msgid "Sub-project is here"
-msgstr ""
+msgstr "Subprojetos estão aqui"
 
 #: data/com.github.alainm23.planner.appdata.xml.in:55
-msgid ""
-"Quick Search now saves your last searches, so you can hop around without "
-"even typing."
+msgid "Quick Search now saves your last searches, so you can hop around without even typing."
 msgstr ""
 
 #: data/com.github.alainm23.planner.appdata.xml.in:56
