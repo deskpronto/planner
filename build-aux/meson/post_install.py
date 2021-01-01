@@ -11,7 +11,7 @@ schemadir = os.path.join(os.environ['MESON_INSTALL_PREFIX'], 'share', 'glib-2.0'
 
 if not os.environ.get('DESTDIR'):
     print('Updating icon cache...')
-    icon_cache_dir = os.path.join(datadir, 'icons', 'hicolor')
+    icon_cache_dir = os.path.join(datadir, 'icons', 'elementary-xfce')
     if not os.path.exists(icon_cache_dir):
         os.makedirs(icon_cache_dir)
     subprocess.call(['gtk-update-icon-cache', '-qtf', icon_cache_dir])
