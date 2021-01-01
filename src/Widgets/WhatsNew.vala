@@ -43,7 +43,7 @@ public class Widgets.WhatsNew : Gtk.Dialog {
     public WhatsNew (string app_icon, string app_description) {
         Object (
             icon: app_icon,
-            app_description: app_description,
+            app_description: "Tarefas",
             deletable: false,
             resizable: false,
             destroy_with_parent: true,
@@ -54,7 +54,7 @@ public class Widgets.WhatsNew : Gtk.Dialog {
     construct {
         get_style_context ().add_class ("release-dialog");
         width_request = 525;
-        height_request = 400;
+        height_request = 300;
 
         app_icon = new Gtk.Image ();
         app_icon.halign = Gtk.Align.CENTER;
@@ -85,7 +85,7 @@ public class Widgets.WhatsNew : Gtk.Dialog {
         scrolled.expand = true;
         scrolled.add (options);
 
-        var continue_button = new Gtk.Button.with_label (_("Continue"));
+        var continue_button = new Gtk.Button.with_label (_("Continuar"));
         continue_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
         continue_button.expand = true;
         continue_button.margin_top = 6;

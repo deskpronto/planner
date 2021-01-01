@@ -174,7 +174,7 @@ msgstr "Tente %s para ativá-lo. Você pode alterá-lo nas preferências"
 #: src/Utils.vala:958
 #, c-format
 msgid "Planner %s is here, with many design improvements, new features, and more."
-msgstr "Tarefas %s está aqui, com muitas melhoras de design, novas funções, e mais."
+msgstr "O Tarefas %s chegou com muitas melhoras de design, novas funções, e mais"
 
 #: src/Utils.vala:960
 #, fuzzy
@@ -183,7 +183,7 @@ msgstr "Nova Visualização em Quadros"
 
 #: src/Utils.vala:960
 msgid "For Todoist users, the Board View was introduced in this new update, a more visual way to organize your Planner projects."
-msgstr "Para usuários do Todoist, a Área de Visualização foi introduzida nessa atualização, uma maneira mais visual de organizar os proejtos do Tarefas. "
+msgstr "Para usuários do Todoist foi introduzida a Visualização em Quadros, uma maneira mais visual de organizar os projetos do Tarefas"
 
 #: src/Utils.vala:961
 #, fuzzy
@@ -956,7 +956,7 @@ msgstr "Comece"
 
 #: src/Views/Welcome.vala:28
 msgid "Start Working Locally."
-msgstr "Comece a trabalhar localmente."
+msgstr "Comece a trabalhar localmente"
 
 #: src/Views/Welcome.vala:29 src/Dialogs/TodoistOAuth.vala:35
 #: src/Dialogs/Preferences/Preferences.vala:1150
@@ -965,15 +965,15 @@ msgstr "Todoist"
 
 #: src/Views/Welcome.vala:29
 msgid "Synchronize with your Todoist Account."
-msgstr "Sincronize com sua conta Todoist."
+msgstr "Sincronize com sua conta Todoist"
 
 #: src/Views/Welcome.vala:30
 msgid "Import Backup"
-msgstr "Importar Backup"
+msgstr "Restaure do backup"
 
 #: src/Views/Welcome.vala:30
 msgid "Import Previously Exported Planner Backup."
-msgstr "Importar backup do Tarefas previamente exportado."
+msgstr "Importe um arquivo de backup do Tarefas"
 
 #: src/Views/Inbox.vala:68 src/Views/Project.vala:139
 #: src/Views/Project.vala:147 src/Dialogs/Project.vala:161
@@ -2109,7 +2109,7 @@ msgstr "A seção foi copiada para a área de transferência."
 
 #, fuzzy
 #~ msgid "Planner 2 is here..."
-#~ msgstr "Tarefas 2 está aqui..."
+#~ msgstr "Tarefas 2.6.3 chegou..."
 
 #, fuzzy
 #~ msgid "Labels preview"
