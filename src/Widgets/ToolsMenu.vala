@@ -30,7 +30,7 @@ public class Widgets.ToolsMenu : Gtk.Revealer {
         halign = Gtk.Align.CENTER;
 
         var close_image = new Gtk.Image ();
-        close_image.gicon = new ThemedIcon ("close-symbolic");
+        close_image.gicon = new ThemedIcon ("view-close-symbolic");
         close_image.pixel_size = 12;
 
         var close_button = new Gtk.Button ();
@@ -42,7 +42,7 @@ public class Widgets.ToolsMenu : Gtk.Revealer {
 
         var preferences_menu = new Widgets.ToolMenuItem (_("Preferences"), {"Ctrl", ","});
         var whats_new_menu = new Widgets.ToolMenuItem (_("What's new"), {});
-        var keyboard_menu = new Widgets.ToolMenuItem (_("Atalhos de teclado"), {"f1"});
+        var keyboard_menu = new Widgets.ToolMenuItem (_("Atalhos de teclado"), {"F1"});
 
         sync_menu = new Widgets.SyncButton ();
         sync_menu.visible = Planner.settings.get_boolean ("todoist-account");
