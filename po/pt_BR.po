@@ -1346,7 +1346,7 @@ msgstr "Página Inicial"
 #: src/Dialogs/Preferences/Preferences.vala:130
 #: src/Dialogs/Preferences/Preferences.vala:492
 msgid "Badge Count"
-msgstr "Contador do Ícone"
+msgstr "Contador no ícone"
 
 #: src/Dialogs/Preferences/Preferences.vala:131
 #: src/Dialogs/Preferences/Preferences.vala:565

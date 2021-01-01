@@ -46,7 +46,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
 
         Planner.event_bus.unselect_all ();
         width_request = 525;
-        height_request = 600;
+        height_request = 500;
 
         use_header_bar = 1;
         var header_bar = (Gtk.HeaderBar) get_header_bar ();
@@ -144,7 +144,6 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         // general_grid.add (backups_item);
         general_grid.add (quick_add_item);
         general_grid.add (general_item);
-        general_grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
 
         /* Addons */
         var addons_label = new Granite.HeaderLabel (_("Add-ons"));
@@ -358,7 +357,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
     }
 
     private Gtk.Widget get_task_widget () {
-        var top_box = new Dialogs.Preferences.TopBox ("gnome-menu", _("Task defaults"));
+        var top_box = new Dialogs.Preferences.TopBox ("tasks-defaults", _("Padrões das tarefas"));
 
         var new_tasks_position_switch = new Dialogs.Preferences.ItemSwitch (
             _("New tasks on top"),
