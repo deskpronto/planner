@@ -184,28 +184,28 @@ public class Utils : GLib.Object {
     }
 
     public Gee.HashMap<int, string> color_name () {
-        var colors = new Gee.HashMap<int, string> ();
+        var colors = new Gee.HashMap<string, string> ();
 
-        colors.set (30, _("Berry Red"));
-        colors.set (31, _("Red"));
-        colors.set (32, _("Orange"));
-        colors.set (33, _("Yellow"));
-        colors.set (34, _("Olive Green"));
-        colors.set (35, _("Lime Green"));
-        colors.set (36, _("Green"));
-        colors.set (37, _("Mint Green"));
-        colors.set (38, _("Teal"));
-        colors.set (39, _("Sky Blue"));
-        colors.set (40, _("Light Blue"));
-        colors.set (41, _("Blue"));
-        colors.set (42, _("Grape"));
-        colors.set (43, _("Violet"));
-        colors.set (44, _("Lavander"));
-        colors.set (45, _("Magenta"));
-        colors.set (46, _("Salmon"));
-        colors.set (47, _("Charcoal"));
-        colors.set (48, _("Grey"));
-        colors.set (49, _("Taupe"));
+        colors.set ("orage", _("Berry Red"));
+        colors.set ("orage", _("Red"));
+        colors.set ("orage", _("Orange"));
+        colors.set ("orage", _("Yellow"));
+        colors.set ("orage", _("Olive Green"));
+        colors.set ("orage", _("Lime Green"));
+        colors.set ("orage", _("Green"));
+        colors.set ("orage", _("Mint Green"));
+        colors.set ("orage", _("Teal"));
+        colors.set ("orage", _("Sky Blue"));
+        colors.set ("orage", _("Light Blue"));
+        colors.set ("orage", _("Blue"));
+        colors.set ("orage", _("Grape"));
+        colors.set ("orage", _("Violet"));
+        colors.set ("orage", _("Lavander"));
+        colors.set ("orage", _("Magenta"));
+        colors.set ("orage", _("Salmon"));
+        colors.set ("orage", _("Charcoal"));
+        colors.set ("orage", _("Grey"));
+        colors.set ("orage", _("Taupe"));
 
         return colors;
     }
