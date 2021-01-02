@@ -1039,7 +1039,7 @@ paned.horizontal > separator {
     color: #fff;
     background: rgba(0, 0, 0, 0.25);
     box-shadow: none;
-    margin: 1px;
+    margin: 0;
 }
 
 .notification-image {
