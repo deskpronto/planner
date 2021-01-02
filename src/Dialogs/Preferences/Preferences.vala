@@ -48,12 +48,6 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         width_request = 525;
         height_request = 500;
 
-        use_header_bar = 1;
-        var header_bar = (Gtk.HeaderBar) get_header_bar ();
-        header_bar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
-        header_bar.get_style_context ().add_class ("preferences-dialog");
-        header_bar.get_style_context ().add_class ("default-decoration");
-
         stack = new Gtk.Stack ();
         stack.expand = true;
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
@@ -63,7 +57,6 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         stack.add_named (get_badge_count_widget (), "badge-count");
         stack.add_named (get_theme_widget (), "theme");
         stack.add_named (get_task_widget (), "task");
-        // stack.add_named (get_backups_widget (), "backups");
         stack.add_named (get_quick_add_widget (), "quick-add");
         stack.add_named (get_plugins_widget (), "plugins");
         stack.add_named (get_todoist_widget (), "todoist");
@@ -127,9 +120,8 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         var start_page_item = new Dialogs.Preferences.Item ("go-home", _("Homepage"));
         var badge_item = new Dialogs.Preferences.Item ("planner-badge-count", _("Badge Count"));
         var theme_item = new Dialogs.Preferences.Item ("preferences-color", _("Appearance"));
-        var task_item = new Dialogs.Preferences.Item ("process-completed", _("Padrões de Tarefas"));
+        var task_item = new Dialogs.Preferences.Item ("gnome-menu", _("Padrões de tarefas"));
         var quick_add_item = new Dialogs.Preferences.Item ("planner-quick-add", _("Quick Add"));
-        // var backups_item = new Dialogs.Preferences.Item ("drive-harddisk", _("Backups"));
         var general_item = new Dialogs.Preferences.Item ("preferences-system", _("General"), true);
 
         var general_grid = new Gtk.Grid ();
@@ -137,11 +129,11 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         general_grid.get_style_context ().add_class ("preferences-view");
         general_grid.orientation = Gtk.Orientation.VERTICAL;
         general_grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
+		general_grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
         general_grid.add (start_page_item);
         general_grid.add (badge_item);
         general_grid.add (theme_item);
         general_grid.add (task_item);
-        // general_grid.add (backups_item);
         general_grid.add (quick_add_item);
         general_grid.add (general_item);
 
@@ -151,7 +143,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
 
         var todoist_item = new Dialogs.Preferences.Item ("planner-todoist", "Todoist");
         var plugins_item = new Dialogs.Preferences.Item ("extension", "Complementos");
-        var calendar_item = new Dialogs.Preferences.Item ("x-office-calendar", _("Calendar Events"));
+        var calendar_item = new Dialogs.Preferences.Item ("orage", _("Calendar Events"));
         var labels_item = new Dialogs.Preferences.Item ("tag", _("Labels"));
         var shortcuts_item = new Dialogs.Preferences.Item ("preferences-desktop-keyboard", _("Keyboard Shortcuts"), true);
 
@@ -357,7 +349,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
     }
 
     private Gtk.Widget get_task_widget () {
-        var top_box = new Dialogs.Preferences.TopBox ("tasks-defaults", _("Padrões das tarefas"));
+        var top_box = new Dialogs.Preferences.TopBox ("gnome-menu", _("Padrões das tarefas"));
 
         var new_tasks_position_switch = new Dialogs.Preferences.ItemSwitch (
             _("New tasks on top"),
@@ -429,41 +421,6 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         default_priority.activated.connect ((index) => {
             Planner.settings.set_enum ("default-priority", index);
         });
-
-        return main_box;
-    }
-
-    private Gtk.Widget get_backups_widget () {
-        var top_box = new Dialogs.Preferences.TopBox ("go-home", _("Backups"));
-
-        var description_label = new Gtk.Label (
-            _("Planner creates automatic daily backups of your active projects and tasks. You can easily restore your backups anytime using project import.") // vala-lint=line-length
-        );
-        description_label.justify = Gtk.Justification.FILL;
-        description_label.use_markup = true;
-        description_label.wrap = true;
-        description_label.xalign = 0;
-        description_label.margin_bottom = 6;
-        description_label.margin_top = 6;
-        description_label.margin_start = 12;
-        description_label.margin_end = 12;
-
-        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-        box.margin_top = 6;
-        box.valign = Gtk.Align.START;
-        box.hexpand = true;
-        box.add (description_label);
-
-        var box_scrolled = new Gtk.ScrolledWindow (null, null);
-        box_scrolled.hscrollbar_policy = Gtk.PolicyType.NEVER;
-        box_scrolled.expand = true;
-        box_scrolled.add (box);
-
-        var main_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-        main_box.expand = true;
-
-        main_box.pack_start (top_box, false, false, 0);
-        main_box.pack_start (box_scrolled, false, true, 0);
 
         return main_box;
     }

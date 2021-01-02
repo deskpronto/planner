@@ -36,12 +36,13 @@ public class Widgets.WhatsNew : Gtk.Dialog {
 
     public string app_description {
         set {
-            description_label.label = value;
+            description_label.label = label;
         }
     }
 
     public WhatsNew (string app_icon, string app_description) {
         Object (
+		    title: "Tarefas",
             icon: app_icon,
             app_description: "Tarefas",
             deletable: false,
@@ -54,7 +55,7 @@ public class Widgets.WhatsNew : Gtk.Dialog {
     construct {
         get_style_context ().add_class ("release-dialog");
         width_request = 525;
-        height_request = 300;
+        height_request = 350;
 
         app_icon = new Gtk.Image ();
         app_icon.halign = Gtk.Align.CENTER;

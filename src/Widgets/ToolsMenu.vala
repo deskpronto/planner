@@ -41,7 +41,6 @@ public class Widgets.ToolsMenu : Gtk.Revealer {
         close_button.get_style_context ().add_class ("close-button");
 
         var preferences_menu = new Widgets.ToolMenuItem (_("Preferences"), {"Ctrl", ","});
-        var whats_new_menu = new Widgets.ToolMenuItem (_("What's new"), {});
         var keyboard_menu = new Widgets.ToolMenuItem (_("Atalhos de teclado"), {"F1"});
 
         sync_menu = new Widgets.SyncButton ();
@@ -61,7 +60,6 @@ public class Widgets.ToolsMenu : Gtk.Revealer {
         content_grid.margin_bottom = 3;
         content_grid.add (preferences_menu);
         content_grid.add (keyboard_menu);
-        content_grid.add (whats_new_menu);
         content_grid.add (sync_separator);
         content_grid.add (sync_menu);
 
@@ -119,11 +117,6 @@ public class Widgets.ToolsMenu : Gtk.Revealer {
             var dialog = new Dialogs.Preferences.Preferences ();
             dialog.destroy.connect (Gtk.main_quit);
             dialog.show_all ();
-        });
-
-        whats_new_menu.clicked.connect (() => {
-            reveal_child = false;
-            Planner.utils.open_whats_new_dialog ();
         });
 
         keyboard_menu.clicked.connect (() => {
