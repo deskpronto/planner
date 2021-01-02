@@ -127,6 +127,6 @@ public class Services.Notifications : GLib.Object {
         notification.set_icon (new ThemedIcon (icon_name));
         notification.set_priority (priority);
 
-        Planner.instance.send_notification ("com.github.alainm23.planner", notification);
+        Planner.instance.send_notification ("Tarefas", notification);
     }
 }
