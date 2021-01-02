@@ -621,7 +621,7 @@ public class Widgets.ProjectRow : Gtk.ListBoxRow {
 
         Widgets.ImageMenuItem item_menu;
         if (project.parent_id != 0) {
-            item_menu = new Widgets.ImageMenuItem (_("No Parent"), "window-close-symbolic");
+            item_menu = new Widgets.ImageMenuItem (_("No Parent"), "view-close-symbolic");
             item_menu.activate.connect (() => {
                 Planner.database.move_project (project, 0);
                 if (project.is_todoist == 1) {

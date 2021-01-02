@@ -36,7 +36,7 @@ public class Widgets.LabelItem : Gtk.EventBox {
         add_events (Gdk.EventMask.ENTER_NOTIFY_MASK | Gdk.EventMask.LEAVE_NOTIFY_MASK);
 
         var delete_image = new Gtk.Image ();
-        delete_image.gicon = new ThemedIcon ("window-close-symbolic");
+        delete_image.gicon = new ThemedIcon ("view-close-symbolic");
         delete_image.pixel_size = 13;
 
         var delete_button = new Gtk.Button ();

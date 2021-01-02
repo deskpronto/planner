@@ -161,7 +161,7 @@ public class MainWindow : Gtk.Window {
 
         var note_image = new Gtk.Image ();
         note_image.pixel_size = 16;
-        note_image.icon_name = "text-x-generic-symbolic";
+        note_image.icon_name = "add-circle-outline-dark";
 
         var note_button = new Gtk.Button ();
         note_button.tooltip_text = _("Add Note");
@@ -621,7 +621,7 @@ public class MainWindow : Gtk.Window {
         tomorrow_button.color = 1;
         tomorrow_button.due_label = true;
 
-        undated_button = new ModelButton (_("Undated"), "window-close-symbolic", "");
+        undated_button = new ModelButton (_("Undated"), "view-close-symbolic", "");
         undated_button.get_style_context ().add_class ("due-menuitem");
         undated_button.item_image.pixel_size = 14;
         undated_button.color = 2;

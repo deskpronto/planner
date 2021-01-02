@@ -360,7 +360,7 @@ public class Widgets.TaskRow : Gtk.ListBoxRow {
         tomorrow_menu.item_image.get_style_context ().add_class ("upcoming-icon");
         tomorrow_menu.item_image.pixel_size = 14;
 
-        var undated_menu = new Widgets.ImageMenuItem (_("Undated"), "window-close-symbolic");
+        var undated_menu = new Widgets.ImageMenuItem (_("Undated"), "view-close-symbolic");
         undated_menu.item_image.get_style_context ().add_class ("due-clear");
         undated_menu.item_image.pixel_size = 14;
 
@@ -644,7 +644,7 @@ public class Widgets.TaskRow : Gtk.ListBoxRow {
         tomorrow_button.color = 1;
         tomorrow_button.due_label = true;
 
-        var undated_button = new Widgets.ModelButton (_("Undated"), "window-close-symbolic", "");
+        var undated_button = new Widgets.ModelButton (_("Undated"), "view-close-symbolic", "");
         undated_button.get_style_context ().add_class ("due-menuitem");
         undated_button.item_image.pixel_size = 14;
         undated_button.color = 2;

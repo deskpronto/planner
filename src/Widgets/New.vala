@@ -410,7 +410,7 @@ public class Widgets.New : Gtk.Revealer {
         area_liststore.@set (iter,
             0, null,
             1, " " + _("No Parent"),
-            2, "window-close-symbolic"
+            2, "view-close-symbolic"
         );
 
         area_combobox.set_active_iter (iter);

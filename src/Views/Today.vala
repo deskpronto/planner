@@ -944,7 +944,7 @@ public class Views.Today : Gtk.EventBox {
         tomorrow_button.color = 1;
         tomorrow_button.due_label = true;
 
-        var undated_button = new Widgets.ModelButton (_("Undated"), "window-close-symbolic", "");
+        var undated_button = new Widgets.ModelButton (_("Undated"), "view-close-symbolic", "");
         undated_button.get_style_context ().add_class ("due-menuitem");
         undated_button.item_image.pixel_size = 14;
         undated_button.color = 2;

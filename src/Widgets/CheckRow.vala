@@ -73,7 +73,7 @@ public class Widgets.CheckRow : Gtk.ListBoxRow {
         content_stack.add_named (content_label, "label");
         content_stack.add_named (content_entry, "entry");
 
-        var delete_button = new Gtk.Button.from_icon_name ("window-close-symbolic");
+        var delete_button = new Gtk.Button.from_icon_name ("view-close-symbolic");
         delete_button.valign = Gtk.Align.CENTER;
         delete_button.can_focus = false;
         delete_button.tooltip_text = _("Delete");

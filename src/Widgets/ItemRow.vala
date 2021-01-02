@@ -374,7 +374,7 @@ public class Widgets.ItemRow : Gtk.ListBoxRow {
 
         // Note
         var note_preview_image = new Gtk.Image ();
-        note_preview_image.gicon = new ThemedIcon ("text-x-generic-symbolic");
+        note_preview_image.gicon = new ThemedIcon ("add-circle-outline-dark");
         note_preview_image.pixel_size = 10;
         note_preview_image.margin_end = 6;
         note_preview_image.margin_top = 3;
@@ -1457,7 +1457,7 @@ public class Widgets.ItemRow : Gtk.ListBoxRow {
         }
 
         if (item.section_id != 0) {
-            item_menu = new Widgets.ImageMenuItem (_("No Section"), "window-close-symbolic");
+            item_menu = new Widgets.ImageMenuItem (_("No Section"), "view-close-symbolic");
             item_menu.activate.connect (() => {
                 Planner.database.move_item_section (item, 0);
                 if (item.is_todoist == 1) {
@@ -1529,7 +1529,7 @@ public class Widgets.ItemRow : Gtk.ListBoxRow {
         tomorrow_menu.item_image.get_style_context ().add_class ("upcoming-icon");
         tomorrow_menu.item_image.pixel_size = 14;
 
-        undated_menu = new Widgets.ImageMenuItem (_("Undated"), "window-close-symbolic");
+        undated_menu = new Widgets.ImageMenuItem (_("Undated"), "view-close-symbolic");
         undated_menu.item_image.get_style_context ().add_class ("due-clear");
         undated_menu.item_image.pixel_size = 14;
 

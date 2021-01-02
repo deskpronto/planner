@@ -91,7 +91,7 @@ public class Widgets.LabelRow : Gtk.ListBoxRow {
         name_stack.add_named (name_label, "name_label");
         name_stack.add_named (name_entry, "name_entry");
 
-        var delete_button = new Gtk.Button.from_icon_name ("window-close-symbolic");
+        var delete_button = new Gtk.Button.from_icon_name ("view-close-symbolic");
         delete_button.valign = Gtk.Align.CENTER;
         delete_button.can_focus = false;
         delete_button.get_style_context ().add_class ("flat");

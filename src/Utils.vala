@@ -121,7 +121,7 @@ public class Utils : GLib.Object {
         var labels = new Gee.HashMap<int, string> ();
         labels.set (41, _("Casa"));
         labels.set (42, _("Escritório"));
-        labels.set (32, _("Incumbência"));
+        labels.set (32, _("Programada"));
         labels.set (31, _("Importante"));
         labels.set (33, _("Pendente"));
 
@@ -134,7 +134,7 @@ public class Utils : GLib.Object {
         office.color = 42;
 
         var errand = new Objects.Label ();
-        errand.name = _("Incumbência");
+        errand.name = _("Programada");
         errand.color = 32;
 
         var important = new Objects.Label ();

@@ -43,7 +43,7 @@ public class Widgets.ReminderRow : Gtk.ListBoxRow {
         date_label.margin_top = 1;
         date_label.get_style_context ().add_class ("font-weight-600");
 
-        var delete_button = new Gtk.Button.from_icon_name ("window-close-symbolic");
+        var delete_button = new Gtk.Button.from_icon_name ("view-close-symbolic");
         delete_button.valign = Gtk.Align.CENTER;
         delete_button.can_focus = false;
         delete_button.get_style_context ().add_class ("flat");
