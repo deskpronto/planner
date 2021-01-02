@@ -44,7 +44,6 @@ public class Widgets.WhatsNew : Gtk.Dialog {
         Object (
 		    title: "Tarefas",
             icon: app_icon,
-            app_description: app_description,
             deletable: false,
             resizable: false,
             destroy_with_parent: true,
