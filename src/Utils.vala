@@ -157,91 +157,91 @@ public class Utils : GLib.Object {
     */
 
     public Gee.HashMap<int, string> color () {
-        var colors = new Gee.HashMap<string, string> ();
+        var colors = new Gee.HashMap<int, string> ();
 
-        colors.set ("orage", "#b8256f");
-        colors.set ("orage", "#db4035");
-        colors.set ("orage", "#ff9933");
-        colors.set ("orage", "#fad000");
-        colors.set ("orage", "#afb83b");
-        colors.set ("orage", "#7ecc49");
-        colors.set ("orage", "#299438");
-        colors.set ("orage", "#6accbc");
-        colors.set ("orage", "#158fad");
-        colors.set ("orage", "#14aaf5");
-        colors.set ("orage", "#96c3eb");
-        colors.set ("orage", "#4073ff");
-        colors.set ("orage", "#884dff");
-        colors.set ("orage", "#af38eb");
-        colors.set ("orage", "#eb96eb");
-        colors.set ("orage", "#e05194");
-        colors.set ("orage", "#ff8d85");
-        colors.set ("orage", "#808080");
-        colors.set ("orage", "#b8b8b8");
-        colors.set ("orage", "#ccac93");
-
-        return colors;
-    }
-
-    public Gee.HashMap<string, string> color_name () {
-        var colors = new Gee.HashMap<string, string> ();
-
-        colors.set ("orage", _("Berry Red"));
-        colors.set ("orage", _("Red"));
-        colors.set ("orage", _("Orange"));
-        colors.set ("orage", _("Yellow"));
-        colors.set ("orage", _("Olive Green"));
-        colors.set ("orage", _("Lime Green"));
-        colors.set ("orage", _("Green"));
-        colors.set ("orage", _("Mint Green"));
-        colors.set ("orage", _("Teal"));
-        colors.set ("orage", _("Sky Blue"));
-        colors.set ("orage", _("Light Blue"));
-        colors.set ("orage", _("Blue"));
-        colors.set ("orage", _("Grape"));
-        colors.set ("orage", _("Violet"));
-        colors.set ("orage", _("Lavander"));
-        colors.set ("orage", _("Magenta"));
-        colors.set ("orage", _("Salmon"));
-        colors.set ("orage", _("Charcoal"));
-        colors.set ("orage", _("Grey"));
-        colors.set ("orage", _("Taupe"));
+        colors.set (30, "#b8256f");
+        colors.set (31, "#db4035");
+        colors.set (32, "#ff9933");
+        colors.set (33, "#fad000");
+        colors.set (34, "#afb83b");
+        colors.set (35, "#7ecc49");
+        colors.set (36, "#299438");
+        colors.set (37, "#6accbc");
+        colors.set (38, "#158fad");
+        colors.set (39, "#14aaf5");
+        colors.set (40, "#96c3eb");
+        colors.set (41, "#4073ff");
+        colors.set (42, "#884dff");
+        colors.set (43, "#af38eb");
+        colors.set (44, "#eb96eb");
+        colors.set (45, "#e05194");
+        colors.set (46, "#ff8d85");
+        colors.set (47, "#808080");
+        colors.set (48, "#b8b8b8");
+        colors.set (49, "#ccac93");
 
         return colors;
     }
 
-    public Gee.ArrayList<string> get_color_list () {
-        var colors = new Gee.ArrayList<string> ();
+    public Gee.HashMap<int, string> color_name () {
+        var colors = new Gee.HashMap<int, string> ();
 
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
-        colors.add ("orage");
+        colors.set (30, _("Berry Red"));
+        colors.set (31, _("Red"));
+        colors.set (32, _("Orange"));
+        colors.set (33, _("Yellow"));
+        colors.set (34, _("Olive Green"));
+        colors.set (35, _("Lime Green"));
+        colors.set (36, _("Green"));
+        colors.set (37, _("Mint Green"));
+        colors.set (38, _("Teal"));
+        colors.set (39, _("Sky Blue"));
+        colors.set (40, _("Light Blue"));
+        colors.set (41, _("Blue"));
+        colors.set (42, _("Grape"));
+        colors.set (43, _("Violet"));
+        colors.set (44, _("Lavander"));
+        colors.set (45, _("Magenta"));
+        colors.set (46, _("Salmon"));
+        colors.set (47, _("Charcoal"));
+        colors.set (48, _("Grey"));
+        colors.set (49, _("Taupe"));
 
         return colors;
     }
 
-    public string get_color_name (string key) {
+    public Gee.ArrayList<int> get_color_list () {
+        var colors = new Gee.ArrayList<int> ();
+
+        colors.add (30);
+        colors.add (31);
+        colors.add (32);
+        colors.add (33);
+        colors.add (34);
+        colors.add (35);
+        colors.add (36);
+        colors.add (37);
+        colors.add (38);
+        colors.add (39);
+        colors.add (40);
+        colors.add (41);
+        colors.add (42);
+        colors.add (43);
+        colors.add (44);
+        colors.add (45);
+        colors.add (46);
+        colors.add (47);
+        colors.add (48);
+        colors.add (49);
+
+        return colors;
+    }
+
+    public string get_color_name (int key) {
         return color_name ().get (key);
     }
 
-    public string get_color (string key) {
+    public string get_color (int key) {
         return color ().get (key);
     }
 
