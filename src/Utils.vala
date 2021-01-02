@@ -183,7 +183,7 @@ public class Utils : GLib.Object {
         return colors;
     }
 
-    public Gee.HashMap<int, string> color_name () {
+    public Gee.HashMap<string, string> color_name () {
         var colors = new Gee.HashMap<string, string> ();
 
         colors.set ("orage", _("Berry Red"));
