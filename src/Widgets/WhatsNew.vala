@@ -36,12 +36,13 @@ public class Widgets.WhatsNew : Gtk.Dialog {
 
     public string app_description {
         set {
-            description_label.label = label;
+            description_label.label = value;
         }
     }
 
     public WhatsNew (string app_icon, string app_description) {
         Object (
+		    title: "Tarefas",
             icon: app_icon,
             app_description: app_description,
             deletable: false,
