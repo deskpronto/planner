@@ -79,7 +79,7 @@ public class Widgets.DueButton : Gtk.ToggleButton {
         repeat_image.valign = Gtk.Align.CENTER;
         repeat_image.pixel_size = 10;
         repeat_image.margin_top = 2;
-        repeat_image.gicon = new ThemedIcon ("orage");
+        repeat_image.gicon = new ThemedIcon ("calendar-outline-dark");
 
         repeat_revealer = new Gtk.Revealer ();
         repeat_revealer.transition_type = Gtk.RevealerTransitionType.SLIDE_LEFT;
@@ -149,7 +149,7 @@ public class Widgets.DueButton : Gtk.ToggleButton {
         time_label.label = "";
         
         if (Planner.settings.get_enum ("appearance") == 0) {
-            due_image.gicon = new ThemedIcon ("calendar-outline-light");
+            due_image.gicon = new ThemedIcon ("calendar-outline-dark");
         } else {
             due_image.gicon = new ThemedIcon ("calendar-outline-dark");
         }
@@ -178,7 +178,7 @@ public class Widgets.DueButton : Gtk.ToggleButton {
                 due_image.get_style_context ().add_class ("overdue-label");
             } else {
                 if (Planner.settings.get_enum ("appearance") == 0) {
-                    due_image.gicon = new ThemedIcon ("calendar-outline-light");
+                    due_image.gicon = new ThemedIcon ("calendar-outline-dark");
                 } else {
                     due_image.gicon = new ThemedIcon ("calendar-outline-dark");
                 }

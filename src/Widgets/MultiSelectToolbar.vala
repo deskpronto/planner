@@ -45,7 +45,7 @@ public class Widgets.MultiSelectToolbar : Gtk.Revealer {
         var done_button = new Gtk.Button ();
         done_button.label = _("Done");
 
-        reschedule_button = new Widgets.ToggleButton (_("Schedule"), "office-calendar-symbolic");
+        reschedule_button = new Widgets.ToggleButton (_("Schedule"), "calendar-outline-dark");
         reschedule_button.margin_start = 6;
         reschedule_button.get_style_context ().add_class ("multi-select-toolbar-button");
 

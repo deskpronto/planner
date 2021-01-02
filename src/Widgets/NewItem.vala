@@ -818,7 +818,7 @@ public class Widgets.NewItem : Gtk.ListBoxRow {
 
     private Gtk.Widget get_schedule_grid () {
         due_image = new Gtk.Image ();
-        due_image.gicon = new ThemedIcon ("office-calendar-symbolic");
+        due_image.gicon = new ThemedIcon ("calendar-outline-dark");
         due_image.valign = Gtk.Align.CENTER;
         due_image.pixel_size = 16;
 
@@ -1017,7 +1017,7 @@ public class Widgets.NewItem : Gtk.ListBoxRow {
         due_date = get_datetime_from_string (due_date);
 
         due_label.label = _("Schedule");
-        due_image.gicon = new ThemedIcon ("office-calendar-symbolic");
+        due_image.gicon = new ThemedIcon ("calendar-outline-dark");
 
         due_image.get_style_context ().remove_class ("overdue-label");
         due_image.get_style_context ().remove_class ("today");
