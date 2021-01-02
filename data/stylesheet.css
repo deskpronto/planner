@@ -1037,7 +1037,7 @@ paned.horizontal > separator {
     border: none;
     border-radius: 100%;
     color: #fff;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.25);
     box-shadow: none;
     margin: 3px;
 }
