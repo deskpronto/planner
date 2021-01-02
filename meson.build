@@ -1,5 +1,5 @@
 project (
-    'Tarefas',
+    'com.github.alainm23.planner',
     'vala', 'c',
     version: '2.6.3'
 )
