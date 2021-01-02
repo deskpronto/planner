@@ -918,15 +918,6 @@ public class Utils : GLib.Object {
         return PaneView.INBOX;
     }
 
-    public void open_whats_new_dialog () {
-        var dialog = new Widgets.WhatsNew ("Tarefas", _("O Tarefas %s chegou com muitas melhorais no design, novas funções, e mais".printf (Constants.VERSION)));
-
-        dialog.append ("align-vertical-top", _("Nova Visualização em Quadros"), _("Para usuários do Todoist foi introduzida a Visualização em Quadros, uma maneira mais visual de organizar os projetos do Tarefas"));
-        dialog.append ("help-about", _("Subprojetos"), _("Uma das função mais pedidas finalmente chegou ao Tarefas. Mantenha sua lista crescente de projetos sempre organizada e com subprojetos"));
-
-        dialog.show_all ();
-        dialog.present ();
-    }
     /*
         Tutorial project
     */

@@ -268,7 +268,6 @@ public class Planner : Gtk.Application {
         utils.set_quick_add_shortcut (quick_add_shortcut, Planner.settings.get_boolean ("quick-add-enabled"));
 
         if (settings.get_string ("version") != Constants.VERSION) {
-            utils.open_whats_new_dialog ();
             
             // Update the settings so we don't show the same dialog again.
             settings.set_string ("version", Constants.VERSION);
