@@ -910,7 +910,6 @@ msgstr "Parece que tudo está organizado no lugar certo."
 msgid "Sort by date"
 msgstr "Organizar por data"
 
-#. var sort_date_menu = new Widgets.ModelButton (_("Sort by date"), "x-office-calendar-symbolic", "");
 #: src/Views/Inbox.vala:216 src/Views/Today.vala:481 src/Views/Project.vala:527
 #: src/Dialogs/ShortcutsDialog.vala:99 src/Dialogs/Project.vala:516
 msgid "Sort by priority"
@@ -921,7 +920,6 @@ msgstr "Organizar por prioridade"
 msgid "Sort by name"
 msgstr "Organizar por nome"
 
-#. var archive_menu = new Widgets.ModelButton (_("Archive project"), "planner-archive-symbolic");
 #: src/Views/Inbox.vala:219 src/Views/Today.vala:484 src/Views/Project.vala:530
 #: src/Dialogs/Project.vala:519
 msgid "Utilities"
