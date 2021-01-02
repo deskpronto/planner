@@ -416,7 +416,7 @@ msgstr "Nome da tarefa"
 #: src/Widgets/MagicButton.vala:32 src/Widgets/BoardColumn.vala:71
 #: src/Widgets/BoardColumn.vala:791 src/Widgets/BoardColumn.vala:1007
 msgid "Add Task"
-msgstr "Adicionar Tarefa"
+msgstr "Adicionar tarefa"
 
 #: src/Widgets/NewItem.vala:228 src/Widgets/SectionRow.vala:1010
 #: src/Widgets/BoardColumn.vala:1011
