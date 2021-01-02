@@ -467,7 +467,7 @@ msgstr "Hora"
 #: src/Widgets/DueButton.vala:58 src/Widgets/DueButton.vala:67
 #: src/Widgets/DueButton.vala:148 src/Widgets/MultiSelectToolbar.vala:48
 msgid "Schedule"
-msgstr "Cronograma"
+msgstr "Agenda"
 
 #: src/Widgets/ItemRow.vala:196
 msgid "Hide Details"

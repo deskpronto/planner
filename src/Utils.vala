@@ -121,7 +121,7 @@ public class Utils : GLib.Object {
         var labels = new Gee.HashMap<int, string> ();
         labels.set (41, _("Casa"));
         labels.set (42, _("Escritório"));
-        labels.set (32, _("Recado"));
+        labels.set (32, _("Incumbência"));
         labels.set (31, _("Importante"));
         labels.set (33, _("Pendente"));
 
@@ -134,7 +134,7 @@ public class Utils : GLib.Object {
         office.color = 42;
 
         var errand = new Objects.Label ();
-        errand.name = _("Recado");
+        errand.name = _("Incumbência");
         errand.color = 32;
 
         var important = new Objects.Label ();
@@ -780,7 +780,7 @@ public class Utils : GLib.Object {
                  pane_color = "#404f64";
                  pane_selected_color = "#363F56";
                  pane_text_color = "#fefeff";
-                 popover_background = "#404f64";
+                 popover_background = "#363F56";
                  row_selected_color = "#363F56";
                  upcoming_color = "#a970ff";
 

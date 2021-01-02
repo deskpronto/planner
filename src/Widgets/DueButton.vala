@@ -79,7 +79,7 @@ public class Widgets.DueButton : Gtk.ToggleButton {
         repeat_image.valign = Gtk.Align.CENTER;
         repeat_image.pixel_size = 10;
         repeat_image.margin_top = 2;
-        repeat_image.gicon = new ThemedIcon ("media-playlist-repeat-symbolic");
+        repeat_image.gicon = new ThemedIcon ("orage");
 
         repeat_revealer = new Gtk.Revealer ();
         repeat_revealer.transition_type = Gtk.RevealerTransitionType.SLIDE_LEFT;
