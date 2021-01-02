@@ -1033,11 +1033,11 @@ paned.horizontal > separator {
 }
 
 .close-button {
-    padding: 3px;
+    padding: 2px;
     border: none;
     border-radius: 100%;
     color: #fff;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.2);
     box-shadow: none;
     margin: 0;
 }
