@@ -152,7 +152,7 @@ msgstr "Sincronizar manualmente"
 
 #: src/Utils.vala:1046 src/Dialogs/ShortcutsDialog.vala:137
 msgid "Quit"
-msgstr "Cancelar"
+msgstr "Sair"
 
 #: src/Utils.vala:1054
 msgid "The request was incorrect."
