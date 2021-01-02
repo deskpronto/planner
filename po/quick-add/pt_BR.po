@@ -44,7 +44,7 @@ msgstr "Nome da tarefa"
 
 #: src/QuickAdd/MainWindow.vala:106
 msgid "Add Task"
-msgstr "Adicionar Tarefa"
+msgstr "Adicionar tarefa"
 
 #: src/QuickAdd/MainWindow.vala:111
 msgid "Cancel"
