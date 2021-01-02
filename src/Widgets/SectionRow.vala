@@ -78,7 +78,7 @@ public class Widgets.SectionRow : Gtk.ListBoxRow {
         var section = new Objects.Section ();
         section.id = 0;
         section.project_id = project.id;
-        section.name = _("(No Section)");
+        section.name = _("Primeira seção");
         section.is_todoist = project.is_todoist;
 
         Object (

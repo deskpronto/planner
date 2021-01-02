@@ -1037,18 +1037,7 @@ paned.horizontal > separator {
     border: none;
     border-radius: 100%;
     color: #fff;
-    background-image:
-        linear-gradient(
-            to bottom,
-            shade (
-                @projectview_color,
-                0.5
-            ),
-            shade (
-                 @projectview_color,
-                0.5
-            )
-        ); 
+    background: rgba(0, 0, 0, 0.4);
     box-shadow: none;
     margin: 3px;
 }

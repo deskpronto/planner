@@ -879,7 +879,7 @@ msgstr "Importe um arquivo de backup do Tarefas"
 #: src/Views/Project.vala:147 src/Dialogs/Project.vala:161
 #: src/Dialogs/Project.vala:169
 msgid "Add Section"
-msgstr "Adicionar Seção"
+msgstr "Adicionar seção"
 
 #: src/Views/Inbox.vala:76 src/Views/Project.vala:155
 #: src/Dialogs/Project.vala:177
