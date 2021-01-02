@@ -87,7 +87,7 @@ public class Planner : Gtk.Application {
     };
 
     construct {
-        application_id = "com.github.alainm23.planner";
+        application_id = "Tarefas";
         flags |= ApplicationFlags.HANDLES_OPEN;
 
         // Init internationalization support
