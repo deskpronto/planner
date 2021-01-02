@@ -157,28 +157,28 @@ public class Utils : GLib.Object {
     */
 
     public Gee.HashMap<int, string> color () {
-        var colors = new Gee.HashMap<int, string> ();
+        var colors = new Gee.HashMap<string, string> ();
 
-        colors.set (30, "#b8256f");
-        colors.set (31, "#db4035");
-        colors.set (32, "#ff9933");
-        colors.set (33, "#fad000");
-        colors.set (34, "#afb83b");
-        colors.set (35, "#7ecc49");
-        colors.set (36, "#299438");
-        colors.set (37, "#6accbc");
-        colors.set (38, "#158fad");
-        colors.set (39, "#14aaf5");
-        colors.set (40, "#96c3eb");
-        colors.set (41, "#4073ff");
-        colors.set (42, "#884dff");
-        colors.set (43, "#af38eb");
-        colors.set (44, "#eb96eb");
-        colors.set (45, "#e05194");
-        colors.set (46, "#ff8d85");
-        colors.set (47, "#808080");
-        colors.set (48, "#b8b8b8");
-        colors.set (49, "#ccac93");
+        colors.set ("orage", "#b8256f");
+        colors.set ("orage", "#db4035");
+        colors.set ("orage", "#ff9933");
+        colors.set ("orage", "#fad000");
+        colors.set ("orage", "#afb83b");
+        colors.set ("orage", "#7ecc49");
+        colors.set ("orage", "#299438");
+        colors.set ("orage", "#6accbc");
+        colors.set ("orage", "#158fad");
+        colors.set ("orage", "#14aaf5");
+        colors.set ("orage", "#96c3eb");
+        colors.set ("orage", "#4073ff");
+        colors.set ("orage", "#884dff");
+        colors.set ("orage", "#af38eb");
+        colors.set ("orage", "#eb96eb");
+        colors.set ("orage", "#e05194");
+        colors.set ("orage", "#ff8d85");
+        colors.set ("orage", "#808080");
+        colors.set ("orage", "#b8b8b8");
+        colors.set ("orage", "#ccac93");
 
         return colors;
     }
