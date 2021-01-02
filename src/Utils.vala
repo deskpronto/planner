@@ -237,7 +237,7 @@ public class Utils : GLib.Object {
         return colors;
     }
 
-    public string get_color_name (int key) {
+    public string get_color_name (string key) {
         return color_name ().get (key);
     }
 
