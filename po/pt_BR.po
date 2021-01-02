@@ -88,7 +88,7 @@ msgstr "Para usuários do Todoist foi introduzida a Visualização em Quadros, u
 #: src/Utils.vala:961
 #, fuzzy
 msgid "Sub-project"
-msgstr "Organizar por projeto"
+msgstr "Subprojeto"
 
 #: src/Utils.vala:961
 msgid "One of the most requested features comes to Planner 2.6, keep your ever-growing project list neat and organized with sub-projects."
