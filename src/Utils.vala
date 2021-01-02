@@ -210,29 +210,29 @@ public class Utils : GLib.Object {
         return colors;
     }
 
-    public Gee.ArrayList<int> get_color_list () {
-        var colors = new Gee.ArrayList<int> ();
+    public Gee.ArrayList<string> get_color_list () {
+        var colors = new Gee.ArrayList<string> ();
 
-        colors.add (30);
-        colors.add (31);
-        colors.add (32);
-        colors.add (33);
-        colors.add (34);
-        colors.add (35);
-        colors.add (36);
-        colors.add (37);
-        colors.add (38);
-        colors.add (39);
-        colors.add (40);
-        colors.add (41);
-        colors.add (42);
-        colors.add (43);
-        colors.add (44);
-        colors.add (45);
-        colors.add (46);
-        colors.add (47);
-        colors.add (48);
-        colors.add (49);
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
+        colors.add ("orage");
 
         return colors;
     }
@@ -241,7 +241,7 @@ public class Utils : GLib.Object {
         return color_name ().get (key);
     }
 
-    public string get_color (int key) {
+    public string get_color (string key) {
         return color ().get (key);
     }
 
