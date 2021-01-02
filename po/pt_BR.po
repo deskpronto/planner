@@ -1239,7 +1239,7 @@ msgstr "Geral"
 #: src/Dialogs/Preferences/Preferences.vala:129
 #: src/Dialogs/Preferences/Preferences.vala:276
 msgid "Homepage"
-msgstr "Página Inicial"
+msgstr "Painel"
 
 #: src/Dialogs/Preferences/Preferences.vala:130
 #: src/Dialogs/Preferences/Preferences.vala:492
