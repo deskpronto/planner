@@ -1007,7 +1007,7 @@ public class Widgets.SectionRow : Gtk.ListBoxRow {
         add_menu.get_style_context ().add_class ("add-button-menu");
 
         var edit_menu = new Widgets.ImageMenuItem (_("Rename"), "edit-symbolic");
-        var note_menu = new Widgets.ImageMenuItem (_("Add Note"), "text-x-generic-symbolic");
+        var note_menu = new Widgets.ImageMenuItem (_("Add Note"), "add-circle-outline-dark");
 
         var move_project_menu = new Widgets.ImageMenuItem (_("Move to Project"), "move-project-symbolic");
         projects_menu = new Gtk.Menu ();
