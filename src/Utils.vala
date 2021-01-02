@@ -119,11 +119,11 @@ public class Utils : GLib.Object {
 
     public void create_default_labels () {
         var labels = new Gee.HashMap<int, string> ();
-        labels.set (41, _("Casa"));
-        labels.set (42, _("Escritório"));
-        labels.set (32, _("Programada"));
-        labels.set (31, _("Importante"));
-        labels.set (33, _("Pendente"));
+        labels.set (41, _("Home"));
+        labels.set (42, _("Office"));
+        labels.set (32, _("Errand"));
+        labels.set (31, _("Important"));
+        labels.set (33, _("Pending"));
 
         var home = new Objects.Label ();
         home.name = _("Casa");
@@ -134,15 +134,15 @@ public class Utils : GLib.Object {
         office.color = 42;
 
         var errand = new Objects.Label ();
-        errand.name = _("Programada");
+        errand.name = _("Programadas");
         errand.color = 32;
 
         var important = new Objects.Label ();
-        important.name = _("Importante");
+        important.name = _("Importantes");
         important.color = 31;
 
         var pending = new Objects.Label ();
-        pending.name = _("Pendente");
+        pending.name = _("Pendentes");
         pending.color = 33;
 
         Planner.database.insert_label (home);

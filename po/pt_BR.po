@@ -1847,7 +1847,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ "agenda for the coming days: scheduled to-dos and calendar events."
 #~ msgstr ""
 #~ "Planeje sua semana com a visualização futura das tarefas. Ele mostra tudo "
-#~ "o que está na sua agenda para os próximos dias: Tarefas pendentes e "
+#~ "o que está na sua agenda para os próximos dias: Tarefas Pendentes e "
 #~ "eventos do calendário."
 
 #~ msgid "Display Projects"
