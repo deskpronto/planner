@@ -119,30 +119,30 @@ public class Utils : GLib.Object {
 
     public void create_default_labels () {
         var labels = new Gee.HashMap<int, string> ();
-        labels.set (41, _("Home"));
-        labels.set (42, _("Office"));
-        labels.set (32, _("Errand"));
-        labels.set (31, _("Important"));
-        labels.set (33, _("Pending"));
+        labels.set (41, _("Casa"));
+        labels.set (42, _("Escritório"));
+        labels.set (32, _("Recado"));
+        labels.set (31, _("Importante"));
+        labels.set (33, _("Pendente"));
 
         var home = new Objects.Label ();
-        home.name = _("Home");
+        home.name = _("Casa");
         home.color = 41;
 
         var office = new Objects.Label ();
-        office.name = _("Office");
+        office.name = _("Escritório");
         office.color = 42;
 
         var errand = new Objects.Label ();
-        errand.name = _("Errand");
+        errand.name = _("Recado");
         errand.color = 32;
 
         var important = new Objects.Label ();
-        important.name = _("Important");
+        important.name = _("Importante");
         important.color = 31;
 
         var pending = new Objects.Label ();
-        pending.name = _("Pending");
+        pending.name = _("Pendente");
         pending.color = 33;
 
         Planner.database.insert_label (home);
@@ -159,26 +159,14 @@ public class Utils : GLib.Object {
     public Gee.HashMap<int, string> color () {
         var colors = new Gee.HashMap<int, string> ();
 
-        colors.set (30, "#b8256f");
         colors.set (31, "#db4035");
         colors.set (32, "#ff9933");
         colors.set (33, "#fad000");
-        colors.set (34, "#afb83b");
         colors.set (35, "#7ecc49");
-        colors.set (36, "#299438");
-        colors.set (37, "#6accbc");
-        colors.set (38, "#158fad");
         colors.set (39, "#14aaf5");
-        colors.set (40, "#96c3eb");
-        colors.set (41, "#4073ff");
-        colors.set (42, "#884dff");
-        colors.set (43, "#af38eb");
         colors.set (44, "#eb96eb");
-        colors.set (45, "#e05194");
         colors.set (46, "#ff8d85");
-        colors.set (47, "#808080");
         colors.set (48, "#b8b8b8");
-        colors.set (49, "#ccac93");
 
         return colors;
     }
@@ -186,26 +174,14 @@ public class Utils : GLib.Object {
     public Gee.HashMap<int, string> color_name () {
         var colors = new Gee.HashMap<int, string> ();
 
-        colors.set (30, _("Berry Red"));
-        colors.set (31, _("Red"));
-        colors.set (32, _("Orange"));
-        colors.set (33, _("Yellow"));
-        colors.set (34, _("Olive Green"));
-        colors.set (35, _("Lime Green"));
-        colors.set (36, _("Green"));
-        colors.set (37, _("Mint Green"));
-        colors.set (38, _("Teal"));
-        colors.set (39, _("Sky Blue"));
-        colors.set (40, _("Light Blue"));
-        colors.set (41, _("Blue"));
-        colors.set (42, _("Grape"));
-        colors.set (43, _("Violet"));
-        colors.set (44, _("Lavander"));
-        colors.set (45, _("Magenta"));
-        colors.set (46, _("Salmon"));
-        colors.set (47, _("Charcoal"));
-        colors.set (48, _("Grey"));
-        colors.set (49, _("Taupe"));
+        colors.set (31, _("Vermelho"));
+        colors.set (32, _("Laranja"));
+        colors.set (33, _("Amarelo"));
+        colors.set (35, _("Verde"));
+        colors.set (39, _("Azul"));
+        colors.set (44, _("Lilás"));
+        colors.set (46, _("Salmão"));
+        colors.set (48, _("Cinza"));
 
         return colors;
     }
@@ -213,26 +189,14 @@ public class Utils : GLib.Object {
     public Gee.ArrayList<int> get_color_list () {
         var colors = new Gee.ArrayList<int> ();
 
-        colors.add (30);
         colors.add (31);
         colors.add (32);
         colors.add (33);
-        colors.add (34);
         colors.add (35);
-        colors.add (36);
-        colors.add (37);
-        colors.add (38);
         colors.add (39);
-        colors.add (40);
-        colors.add (41);
-        colors.add (42);
-        colors.add (43);
         colors.add (44);
-        colors.add (45);
         colors.add (46);
-        colors.add (47);
         colors.add (48);
-        colors.add (49);
 
         return colors;
     }
