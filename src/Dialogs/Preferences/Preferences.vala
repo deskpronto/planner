@@ -97,7 +97,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
     }
 
     private Gtk.Widget get_plugins_widget () {
-        var top_box = new Dialogs.Preferences.TopBox ("go-home", _("Plugins"));
+        var top_box = new Dialogs.Preferences.TopBox ("preferences-plugin", _("Plugins"));
 
         var main_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         main_box.expand = true;
@@ -142,7 +142,7 @@ public class Dialogs.Preferences.Preferences : Gtk.Dialog {
         addons_label.margin_start = 6;
 
         var todoist_item = new Dialogs.Preferences.Item ("planner-todoist", "Todoist");
-        var plugins_item = new Dialogs.Preferences.Item ("extension", "Complementos");
+        var plugins_item = new Dialogs.Preferences.Item ("preferences-plugin", "Complementos");
         var calendar_item = new Dialogs.Preferences.Item ("orage", _("Calendar Events"));
         var labels_item = new Dialogs.Preferences.Item ("tag", _("Labels"));
         var shortcuts_item = new Dialogs.Preferences.Item ("preferences-desktop-keyboard", _("Keyboard Shortcuts"), true);

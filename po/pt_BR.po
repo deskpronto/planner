@@ -1271,7 +1271,7 @@ msgstr "Complementos"
 #: src/Dialogs/Preferences/Preferences.vala:157
 #: src/Dialogs/Preferences/Preferences.vala:1289
 msgid "Calendar Events"
-msgstr "Eventos do Calendário"
+msgstr "Eventos do calendário"
 
 #. addons_grid.add (shortcuts_item);
 #. Others
@@ -1519,7 +1519,7 @@ msgid ""
 "shared calendars in <b>Today</b> and <b>Upcoming</b>. This is useful when "
 "you’re managing your day, and as you plan the week ahead."
 msgstr ""
-"Você pode conectar seu aplicativo <b>Calendário</b> ao Tarefas para ver seus "
+"Você pode conectar seu aplicativo de calendário ao Tarefas para ver seus "
 "eventos e tarefas juntos em um só lugar. Você verá eventos da agenda pessoal "
 "e compartilhada em <b>Hoje</b> e <b>Próximos</b>. Isso é útil quando você "
 "gerencia o seu dia, e ao planejar a semana seguinte."

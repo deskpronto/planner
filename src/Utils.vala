@@ -187,7 +187,7 @@ public class Utils : GLib.Object {
         var colors = new Gee.HashMap<int, string> ();
 
         colors.set (30, _("Berry Red"));
-        colors.set (31, _("Red"));
+        colors.set ("color-31", _("Red"));
         colors.set (32, _("Orange"));
         colors.set (33, _("Yellow"));
         colors.set (34, _("Olive Green"));
