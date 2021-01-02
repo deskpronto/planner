@@ -622,7 +622,7 @@ public class Dialogs.Project : Gtk.Dialog {
 
             var message_dialog = new Granite.MessageDialog.with_image_from_icon_name (
                 _("Delete project"),
-                _("Are you sure you want to delete <b>%s</b>?".printf (Planner.utils.get_dialog_text (project.name))),
+                _("Tem certeza que deseja excluir <b>%s</b>?".printf (Planner.utils.get_dialog_text (project.name))),
                 "user-trash-full",
             Gtk.ButtonsType.CANCEL);
 
