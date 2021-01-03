@@ -164,6 +164,7 @@ public class Utils : GLib.Object {
         colors.set (33, "#fad000");
         colors.set (35, "#7ecc49");
         colors.set (39, "#14aaf5");
+		colors.set (41, "#4073ff");
         colors.set (44, "#eb96eb");
         colors.set (46, "#ff8d85");
         colors.set (48, "#b8b8b8");
@@ -178,7 +179,8 @@ public class Utils : GLib.Object {
         colors.set (32, _("Laranja"));
         colors.set (33, _("Amarelo"));
         colors.set (35, _("Verde"));
-        colors.set (39, _("Azul"));
+        colors.set (39, _("Azul claro"));
+		colors.set (41, _("Azul escuro"));
         colors.set (44, _("Lilás"));
         colors.set (46, _("Salmão"));
         colors.set (48, _("Cinza"));
@@ -194,6 +196,7 @@ public class Utils : GLib.Object {
         colors.add (33);
         colors.add (35);
         colors.add (39);
+		colors.add (41);
         colors.add (44);
         colors.add (46);
         colors.add (48);
