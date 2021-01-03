@@ -358,7 +358,7 @@ msgstr "Enviar por e-mail"
 #: src/Widgets/ProjectRow.vala:695 src/Widgets/ItemRow.vala:1551
 #: src/Widgets/SectionRow.vala:1021 src/Widgets/BoardColumn.vala:1022
 msgid "Markdown"
-msgstr "Remarcar"
+msgstr "Marcação"
 
 #. var duplicate_menu = new Widgets.ImageMenuItem (_("Duplicate"), "edit-copy-symbolic");
 #: src/Widgets/ProjectRow.vala:703 src/Widgets/ProjectRow.vala:737
@@ -521,7 +521,7 @@ msgstr "Mover para Seção"
 
 #: src/Widgets/ItemRow.vala:1550
 msgid "Text"
-msgstr "Texto"
+msgstr "Área de transferência"
 
 #: src/Widgets/ItemRow.vala:1557
 msgid "Duplicate"
@@ -938,7 +938,7 @@ msgstr "Visualizar como quadro"
 #: src/Views/Inbox.vala:383 src/Views/Today.vala:557 src/Views/Project.vala:716
 #: src/Dialogs/Project.vala:681
 msgid "Share on Markdown"
-msgstr "Compartilhar uma remarcação"
+msgstr "Compartilhar em Marcação"
 
 #: src/Views/Inbox.vala:384 src/Views/Today.vala:558 src/Views/Project.vala:717
 #: src/Dialogs/ShortcutsDialog.vala:105 src/Dialogs/Project.vala:682
@@ -2069,7 +2069,7 @@ msgstr "A seção foi copiada para a área de transferência."
 #~ "special task, all this in Markdown."
 #~ msgstr ""
 #~ "Compartilhe todo o progresso do seu projeto ou alguma tarefa especial, "
-#~ "tudo isso em Remarcar"
+#~ "tudo isso em Marcação"
 
 #, fuzzy
 #~ msgid "Add a new subtask"

@@ -1547,7 +1547,7 @@ public class Widgets.ItemRow : Gtk.ListBoxRow {
         var share_list_menu = new Gtk.Menu ();
         share_menu.set_submenu (share_list_menu);
 
-        var share_text_menu = new Widgets.ImageMenuItem (_("Text"), "text-x-generic-symbolic");
+        var share_text_menu = new Widgets.ImageMenuItem (_("Text"), "spray-mode-copy");
         var share_markdown_menu = new Widgets.ImageMenuItem (_("Markdown"), "planner-markdown-symbolic");
 
         share_list_menu.add (share_text_menu);
