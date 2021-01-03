@@ -148,10 +148,7 @@ public class Dialogs.ProjectSettings : Gtk.Dialog {
         loading_revealer.transition_type = Gtk.RevealerTransitionType.SLIDE_UP;
         loading_revealer.add (loading_box);
 
-        var code = "com.github.alainm23.planner --load-project=%s".printf (project.id.to_string ());
-        if (Planner.utils.is_flatpak ()) {
-            code = "flatpak run com.github.alainm23.planner --load-project=%s".printf (project.id.to_string ());
-        }
+        var code = "Tarefas --load-project=%s".printf (project.id.to_string ());
         var access_label = new Gtk.Label (code);
         access_label.get_style_context ().add_class ("terminal");
         access_label.selectable = true;

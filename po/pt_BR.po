@@ -426,7 +426,7 @@ msgstr "Adicionar nota"
 #: src/Widgets/NewItem.vala:233 src/Widgets/ItemRow.vala:1704
 #: src/Widgets/ItemCompletedRow.vala:43
 msgid "Note"
-msgstr "Descreva a tarefa aqui"
+msgstr "Descreva sua tarefa aqui"
 
 #: src/Widgets/NewItem.vala:613 src/Widgets/PriorityButton.vala:98
 #: src/Widgets/MultiSelectToolbar.vala:296 src/Views/Filter.vala:115
