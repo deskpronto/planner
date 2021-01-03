@@ -1457,7 +1457,7 @@ public class Widgets.ItemRow : Gtk.ListBoxRow {
         }
 
         if (item.section_id != 0) {
-            item_menu = new Widgets.ImageMenuItem (_("No Section"), "view-close-symbolic");
+            item_menu = new Widgets.ImageMenuItem (_("Sem sessão"), "view-close-symbolic");
             item_menu.activate.connect (() => {
                 Planner.database.move_item_section (item, 0);
                 if (item.is_todoist == 1) {
