@@ -32,7 +32,7 @@ public class Widgets.PriorityButton : Gtk.ToggleButton {
     }
 
     construct {
-        tooltip_text = _("Priority");
+        tooltip_text = _("Prioridade");
 
         get_style_context ().add_class ("flat");
         get_style_context ().add_class ("item-action-button");
