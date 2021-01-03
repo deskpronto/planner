@@ -314,7 +314,7 @@ msgstr "Sem responsável"
 #: src/Widgets/ProjectRow.vala:126 src/Views/Inbox.vala:104
 #: src/Views/Project.vala:183 src/Dialogs/Project.vala:205
 msgid "Project Menu"
-msgstr "Menu do Projeto"
+msgstr "Opções do projeto"
 
 #: src/Widgets/ProjectRow.vala:150
 msgid "Local Project"
@@ -483,7 +483,7 @@ msgstr "Excluir tarefa"
 
 #: src/Widgets/ItemRow.vala:549
 msgid "Task Menu"
-msgstr "Menu de Tarefa"
+msgstr "Opções da tarefa"
 
 #: src/Widgets/ItemRow.vala:737 src/Widgets/ItemRow.vala:1623
 msgid "Task deleted"
@@ -513,7 +513,7 @@ msgstr "Editar"
 #: src/Widgets/ItemRow.vala:1538 src/Widgets/SectionRow.vala:1012
 #: src/Widgets/BoardColumn.vala:1013
 msgid "Move to Project"
-msgstr "Mover para Projeto"
+msgstr "Mover para projeto"
 
 #: src/Widgets/ItemRow.vala:1542
 msgid "Move to Section"
@@ -570,7 +570,7 @@ msgstr "Nome da seção"
 
 #: src/Widgets/SectionRow.vala:162 src/Widgets/BoardColumn.vala:118
 msgid "Section Menu"
-msgstr "Menu de Seção"
+msgstr "Opções da seção"
 
 #: src/Widgets/SectionRow.vala:220 src/Views/Project.vala:223
 #: src/Dialogs/Project.vala:245

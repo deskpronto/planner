@@ -51,7 +51,7 @@ public class Widgets.BoardColumn : Gtk.EventBox {
         var section = new Objects.Section ();
         section.id = 0;
         section.project_id = project.id;
-        section.name = _("Primeira sessão");
+        section.name = _("Primeira seção");
         section.is_todoist = project.is_todoist;
 
         Object (
@@ -85,7 +85,7 @@ public class Widgets.BoardColumn : Gtk.EventBox {
         name_label.get_style_context ().add_class ("font-bold");
         name_label.set_ellipsize (Pango.EllipsizeMode.END);
         if (section.id == 0) {
-            name_label.label = _("Primeira sessão");
+            name_label.label = _("Primeira seção");
         } else {
             name_label.label = section.name;
         }
