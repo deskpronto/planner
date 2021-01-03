@@ -777,13 +777,13 @@ public class Utils : GLib.Object {
 
                 Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             } else if (appearance_mode == 3) {
-                 base_color = "#3C4359";
+                 base_color = "#404f64";
                  check_border_color = "grey";
                  projectview_color = "#363F56";
                  pane_color = "#404f64";
                  pane_selected_color = "#3C4359";
                  pane_text_color = "#fefeff";
-                 popover_background = "#3C4359";
+                 popover_background = "#404f64";
                  row_selected_color = "#3C4359";
                  upcoming_color = "#a970ff";
 
