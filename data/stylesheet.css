@@ -644,6 +644,10 @@ paned.horizontal > separator {
     font-weight: 600;
 }
 
+.add-button {
+    background-color:: #3C4359;
+}
+
 .add-button:hover {
     color: #3689e6;
 }
@@ -651,13 +655,13 @@ paned.horizontal > separator {
 .add-button:hover image {
     color: #3689e6;
     animation: add-animation 0.5s ease-in-out;
-    background-color: #3689e6;
+    background-color: #3C4359;
     color: #fff;
     border-radius: 4px;
 }
 
 .add-button-image {
-    background-color: #3689e6;
+    background-color: #3C4359;
     color: #fefeff;
     border-radius: 50%;
 }
