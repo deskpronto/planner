@@ -172,12 +172,12 @@ paned.horizontal > separator {
 
 .pane-row {
     transition: all 250ms ease-in-out;
-    background-color: green;
+    background-color: transparent;
 }
 
 
 .action-row {
-    background: yellow;
+    background: transparent;
     transition: all 250ms ease-in-out;
 }
 
@@ -186,7 +186,7 @@ paned.horizontal > separator {
 }
 
 .label-row {
-    background: blue;
+    background: transparent;
     transition: all 250ms ease-in-out;
 }
 
@@ -210,7 +210,7 @@ paned.horizontal > separator {
 
 .project-row {
     transition: all 250ms ease-in-out;
-    background-color: transparent;
+    background-color: green;
 }
 
 .project-row label {
@@ -234,7 +234,7 @@ paned.horizontal > separator {
 
 .header-row {
     transition: all 140ms ease-in-out;
-    background-color: transparent;
+    background-color: yellow;
 }
 
 .hidden-button {
