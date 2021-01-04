@@ -172,12 +172,12 @@ paned.horizontal > separator {
 
 .pane-row {
     transition: all 250ms ease-in-out;
-    background-color: transparent;
+    background-color: green;
 }
 
 
 .action-row {
-    background: transparent;
+    background: yellow;
     transition: all 250ms ease-in-out;
 }
 
@@ -186,7 +186,7 @@ paned.horizontal > separator {
 }
 
 .label-row {
-    background: transparent;
+    background: blue;
     transition: all 250ms ease-in-out;
 }
 
