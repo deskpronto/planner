@@ -83,7 +83,7 @@ modelbutton:hover,
 .menuitem:active,
 .menuitem:focus:active,
 .menuitem:hover {
-    background-color: @pane_selected_color;
+    background-color: #404f64;
 }
 
 menu {
