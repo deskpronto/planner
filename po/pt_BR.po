@@ -426,7 +426,7 @@ msgstr "Adicionar nota"
 #: src/Widgets/NewItem.vala:233 src/Widgets/ItemRow.vala:1704
 #: src/Widgets/ItemCompletedRow.vala:43
 msgid "Note"
-msgstr "Descreva sua tarefa aqui"
+msgstr "Descreva a tarefa aqui"
 
 #: src/Widgets/NewItem.vala:613 src/Widgets/PriorityButton.vala:98
 #: src/Widgets/MultiSelectToolbar.vala:296 src/Views/Filter.vala:115
@@ -580,7 +580,7 @@ msgstr "Adicionar descrição"
 #: src/Widgets/SectionRow.vala:229 src/Views/Project.vala:494
 #: src/Dialogs/Project.vala:484
 msgid "Description"
-msgstr "Descreva o seu projeto aqui"
+msgstr "Descreva o projeto aqui e depois adicione tarefas no <b>+</b>"
 
 #: src/Widgets/SectionRow.vala:957 src/Widgets/SectionRow.vala:978
 #: src/Widgets/BoardColumn.vala:960 src/Widgets/BoardColumn.vala:981
