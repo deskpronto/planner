@@ -201,15 +201,6 @@ paned.horizontal > separator {
     font-weight: 600;
 }
 
-
-.pane-row:hover {
-	transition: all 115ms ease-in-out;
-	background: #3C4359;
-	border-radius: 6px;
-}
-
-
-
 .pane-row:selected {
     background-color: #3C4359;
     color: #fefeff;
@@ -223,7 +214,8 @@ paned.horizontal > separator {
 
 .project-row:hover {
     transition: all 250ms ease-in-out;
-    background-color: transparent;
+    background-color: #3C4359;
+	    border-radius: 6px;
 }
 
 .project-row label {
@@ -232,6 +224,12 @@ paned.horizontal > separator {
 
 .project-row image {
     color: #fefeff;
+}
+
+.project-row:selected {
+    transition: all 250ms ease-in-out;
+    background-color: #3C4359;
+	    border-radius: 6px;
 }
 
 .project-selected {
@@ -283,15 +281,6 @@ paned.horizontal > separator {
     background-color: transparent;
     color: #fefeff;
 }
-
-
-.item-row:hover {
-	transition: all 115ms ease-in-out;
-	background: #3C4359;
-	border-radius: 6px;
-}
-
-
 
 .item-row:selected image {
     color: #fefeff;
@@ -942,15 +931,6 @@ paned.horizontal > separator {
 .label-select-row:selected {
     background-color: #3C4359;
 }
-
-
-.label-select-row:hover {
-	transition: all 115ms ease-in-out;
-	background: #3C4359;
-	border-radius: 6px;
-}
-
-
 
 .row-transparent:selected {
     background-color: transparent;
