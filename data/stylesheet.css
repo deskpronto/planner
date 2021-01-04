@@ -214,8 +214,7 @@ paned.horizontal > separator {
 
 .project-row:hover {
     transition: all 250ms ease-in-out;
-    background-color: #3C4359;
-	border-radius: 6px;
+    background-color: transparent;
 }
 
 .project-row label {
@@ -225,10 +224,6 @@ paned.horizontal > separator {
 .project-row image {
     color: #fefeff;
 }
-
-/* .project-row:selected:focus image {
-    color: #fefeff;
-} */
 
 .project-selected {
     background-color: #3C4359;
@@ -273,6 +268,12 @@ paned.horizontal > separator {
 
 .transition {
     transition: all 115ms ease-in-out;
+}
+
+.item-row:hover {
+	transition: all 115ms ease-in-out;
+	background: #3C4359;
+	border-radius: 6px;
 }
 
 .item-row:selected {
