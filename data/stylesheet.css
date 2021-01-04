@@ -494,7 +494,7 @@ paned.horizontal > separator {
 }
 
 .listbox {
-    background-color: yellow;
+    background-color: red;
 }
 
 .grid-motion {
@@ -746,7 +746,7 @@ paned.horizontal > separator {
 }
 
 .header-entry {
-    background-color: red;
+    background-color: yellow;
     padding-left: 0px;
     border-bottom: none;
 }
@@ -758,7 +758,7 @@ paned.horizontal > separator {
 .project-name-entry {
     padding-left: 0px;
     padding-top: 0px;
-    background-color: red;
+    background-color: green;
 }
 
 .project-name-entry:focus {
