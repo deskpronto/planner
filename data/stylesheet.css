@@ -87,7 +87,7 @@ menu {
 }
 
 .projectview-header {
-    background-color: #363F56;
+    background-color: red;
 }
 
 .projectview-header:dir(ltr) {
@@ -99,7 +99,7 @@ menu {
 }
 
 paned {
-    background-color: #363F56;
+    background-color: red;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     border-top-left-radius: 4px;
@@ -342,11 +342,11 @@ paned.horizontal > separator {
 }
 
 .project-dialog {
-    background-color: #363F56;
+    background-color: red;
 }
 
 .project-dialog headerbar {
-    background-color: #363F56;
+    background-color: red;
 }
 
 .text-color {
@@ -421,9 +421,9 @@ paned.horizontal > separator {
     background-image:
         linear-gradient(
             to bottom,
-            #363F56
+            red
         );
-    border-color: shade (#363F56, 0.8);
+    border-color: shade (red, 0.8);
     box-shadow:
         inset 0 0 0 1px alpha (#000, 0.05),
         0 1px 0 0 alpha (#404f64, 0.3);
@@ -433,7 +433,7 @@ paned.horizontal > separator {
 }
 
 .project-textview text {
-    background-color: #363F56;
+    background-color: red;
     transition: all 250ms ease-in-out;
 }
 
@@ -444,7 +444,7 @@ paned.horizontal > separator {
 
 .new-item-entry {
     border-width: 0px 0px 0px 0px;
-    background-color: #363F56;
+    background-color: red;
 }
 
 .new-item-entry:focus {
@@ -494,7 +494,7 @@ paned.horizontal > separator {
 }
 
 .listbox {
-    background-color: #363F56;
+    background-color: red;
 }
 
 .grid-motion {
@@ -746,7 +746,7 @@ paned.horizontal > separator {
 }
 
 .header-entry {
-    background-color: #363F56;
+    background-color: red;
     padding-left: 0px;
     border-bottom: none;
 }
@@ -758,7 +758,7 @@ paned.horizontal > separator {
 .project-name-entry {
     padding-left: 0px;
     padding-top: 0px;
-    background-color: #363F56;
+    background-color: red;
 }
 
 .project-name-entry:focus {
@@ -955,7 +955,7 @@ paned.horizontal > separator {
 
 @keyframes highlight-item {
     0%   { background-color: #404f64; }
-    50%  { background-color: #363F56; }
+    50%  { background-color: red; }
     100% { background-color: #404f64; }
 }
 
@@ -1196,23 +1196,23 @@ paned.horizontal > separator {
 }
 
 .release-dialog {
-    background-color: #363F56;
+    background-color: red;
 }
 
 .release-dialog headerbar {
-    background-color: #363F56;
+    background-color: red;
 }
 
 .release-dialog textview text {
-    background-color: #363F56;
+    background-color: red;
 }
 
 .release-dialog textview {
-    background-color: #363F56;
+    background-color: red;
 }
 
 .release-dialog entry {
-    background: #363F56;
+    background: red;
 }
 
 .keyboardkey {
@@ -1256,7 +1256,7 @@ paned.horizontal > separator {
 }
 
 .note-textview {
-    background-color: #363F56;
+    background-color: red;
 }
 
 .note-textview text {
