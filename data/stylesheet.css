@@ -175,7 +175,6 @@ paned.horizontal > separator {
     background-color: transparent;
 }
 
-
 .action-row {
     background: transparent;
     transition: all 250ms ease-in-out;
@@ -183,7 +182,6 @@ paned.horizontal > separator {
 
 .action-row:selected image {
     animation: fancy-turn 0.7s ease-in-out;
-	background: green;
 }
 
 .label-row {
@@ -244,7 +242,6 @@ paned.horizontal > separator {
 
 .hidden-button image {
     transition: all 150ms ease-in-out; 
-	background: blue;
 }
 
 .hidden-button image {
@@ -265,12 +262,15 @@ paned.horizontal > separator {
 
 .item-row {
     transition: all 115ms ease-in-out;
-	background: red;
+	    background-image:
+        linear-gradient(
+            to bottom,
+            #363F56
+        );
 }
 
 .transition {
     transition: all 115ms ease-in-out;
-    background: black;
 }
 
 .item-row:selected {
@@ -676,7 +676,6 @@ paned.horizontal > separator {
 
 .fancy-turn-animation:hover image {
     animation: fancy-turn 0.7s ease-in-out;
-		background: white;
 }
 
 .magic-button-animation:hover image {
@@ -967,7 +966,6 @@ paned.horizontal > separator {
 .item-highlight {
     border-radius: 4px;
     animation: highlight-item 0.7s ease-in-out;
-		background: gainsboro;
 }
 
 .name-entry {
