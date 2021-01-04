@@ -228,7 +228,7 @@ paned.horizontal > separator {
 
 .project-row:selected {
     transition: all 250ms ease-in-out;
-    background-color: #363F56;
+    background-color: transparent;
 	    border-radius: 6px;
 }
 
@@ -550,10 +550,7 @@ paned.horizontal > separator {
 }
 
 .highlight {
-    box-shadow: 
-        inset 0px 1px 8px -10px #3689e6,
-        inset 0px -1px 6px -15px #3689e6,
-	inset 0px 0px 0px 1.75px alpha (#3689e6, 0.75);
+    box-shadow: none;
     color: #fefeff;
     border-radius: 6px;
     background-color: #404f64;
