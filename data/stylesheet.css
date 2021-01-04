@@ -342,11 +342,11 @@ paned.horizontal > separator {
 }
 
 .project-dialog {
-    background-color: green;
+    background-color: red;
 }
 
 .project-dialog headerbar {
-    background-color: red;
+    background-color: green;
 }
 
 .text-color {
@@ -421,9 +421,9 @@ paned.horizontal > separator {
     background-image:
         linear-gradient(
             to bottom,
-            red
+            yellow
         );
-    border-color: shade (red, 0.8);
+    border-color: shade (yellow, 0.8);
     box-shadow:
         inset 0 0 0 1px alpha (#000, 0.05),
         0 1px 0 0 alpha (#404f64, 0.3);
