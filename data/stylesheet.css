@@ -1,18 +1,8 @@
-@define-color base_color white;
-@define-color check_border_color @border_color;
-@define-color projectview_color shade (#FFFFFF, 0.985);
-@define-color pane_color #F5F6F7;
-@define-color pane_selected_color #404f64;
-@define-color pane_text_color #333333;
-@define-color popover_background @projectview_color;
-@define-color row_selected_color shade (@check_border_color, 0.75);
-@define-color upcoming_color #692fc2;
-@define-color background_new_color #692fc2;
+
 /*
     Dark theme
 */
 
-/*@define-color projectview_color #333333;*/
 
 entry {
     caret-color: #3689e6;
@@ -667,7 +657,6 @@ paned.horizontal > separator {
 .add-button:hover image {
     color: #3689e6;
     animation: add-animation 0.5s ease-in-out;
-
     background-color: #3689e6;
     color: #fff;
     border-radius: 4px;
