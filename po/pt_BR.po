@@ -580,7 +580,7 @@ msgstr "Adicionar descrição"
 #: src/Widgets/SectionRow.vala:229 src/Views/Project.vala:494
 #: src/Dialogs/Project.vala:484
 msgid "Description"
-msgstr "Descreva o projeto aqui e depois adicione tarefas no <b>+</b>"
+msgstr "Descreva o projeto aqui e depois adicione tarefas em <b>+</b>"
 
 #: src/Widgets/SectionRow.vala:957 src/Widgets/SectionRow.vala:978
 #: src/Widgets/BoardColumn.vala:960 src/Widgets/BoardColumn.vala:981
