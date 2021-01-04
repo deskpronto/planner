@@ -212,6 +212,12 @@ paned.horizontal > separator {
     background-color: transparent;
 }
 
+.project-row:hover {
+    transition: all 250ms ease-in-out;
+    background-color: #3C4359;
+	border-radius: 6px;
+}
+
 .project-row label {
     color: #fefeff;
 }
