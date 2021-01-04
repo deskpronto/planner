@@ -214,8 +214,8 @@ paned.horizontal > separator {
 
 .project-row:hover {
     transition: all 250ms ease-in-out;
-    background-color: #3C4359;
-	    border-radius: 6px;
+    background-color: #363F56;
+	border-radius: 6px;
 }
 
 .project-row label {
@@ -269,7 +269,6 @@ paned.horizontal > separator {
 */
 
 .item-row {
-	    transition: all 115ms ease-in-out;
 	background: #404f64;
 	border-radius: 0;
 }
@@ -279,7 +278,6 @@ paned.horizontal > separator {
 }
 
 .item-row:selected {
-	    transition: all 115ms ease-in-out;
     background-color: transparent;
     color: #fefeff;
 }
