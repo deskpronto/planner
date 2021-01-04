@@ -261,7 +261,7 @@ paned.horizontal > separator {
 */
 
 .item-row {
-	background: #404f64;
+	background: #3C4359;
 	border-radius: 0;
 }
 
@@ -282,7 +282,7 @@ paned.horizontal > separator {
 .item-row-selected {
     border-color: #3C4359;
     border-radius: 0;
-    background-color: #404f64;
+    background-color: #3C4359;
     padding-top: 6px;
     padding-left: 6px;
     margin-left: 2px;
@@ -677,6 +677,9 @@ paned.horizontal > separator {
     animation: fancy-turn 0.7s ease-in-out;
 }
 
+.magic-button-animation:hover image {
+    animation: add-animation 0.7s ease-in-out;
+}
 
 .project-icon {
     background-color: #3689e6;
@@ -695,6 +698,7 @@ paned.horizontal > separator {
 .magic-button {
     border-radius: 50%;
     padding: 5px;
+	background-color: #3C4359;
 }
 
 .label-button {
@@ -703,10 +707,6 @@ paned.horizontal > separator {
     padding: 0px 6px 0px 6px;
     color: #fefeff;
     opacity: 0.7;
-}
-
-.magic-button {
-    border-radius: 50%;
 }
 
 .check-eventbox {
