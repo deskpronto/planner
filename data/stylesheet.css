@@ -262,7 +262,7 @@ paned.horizontal > separator {
 
 .item-row {
 	background: #404f64;
-	border-radius: 10px;
+	border-radius: 0;
 }
 
 .transition {
@@ -281,7 +281,7 @@ paned.horizontal > separator {
 
 .item-row-selected {
     border-color: #3C4359;
-    border-radius: 6px;
+    border-radius: 0;
     background-color: #404f64;
     padding-top: 6px;
     padding-left: 6px;
