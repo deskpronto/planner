@@ -261,7 +261,7 @@ paned.horizontal > separator {
 */
 
 .item-row {
-	background: #3C4359;
+	background: #404f64;
 	border-radius: 0;
 }
 
@@ -282,7 +282,7 @@ paned.horizontal > separator {
 .item-row-selected {
     border-color: #3C4359;
     border-radius: 0;
-    background-color: #3C4359;
+    background-color: #404f64;
     padding-top: 6px;
     padding-left: 6px;
     margin-left: 2px;
@@ -698,7 +698,7 @@ paned.horizontal > separator {
 .magic-button {
     border-radius: 50%;
     padding: 5px;
-	background-color: #3C4359;
+	background-color: #404f64;
 }
 
 .label-button {
