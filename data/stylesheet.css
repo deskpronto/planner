@@ -54,10 +54,8 @@ window.rounded decoration {
 }
 
 window.popup decoration {
-    border-radius: 4px;
-    box-shadow:
-        0 3px 8px alpha (#000, 0.2),
-        0 1px 2px alpha (#000, 0.3);
+    border-radius: 0;
+    box-shadow: none;
 }
 
 menuitem:active,
@@ -386,8 +384,8 @@ paned.horizontal > separator {
 
 .add-project-widget {
     border-radius: 6px;
-    border: 1px solid alpha (#000, 0.3);
-    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border: 1px solid #637384;
+    box-shadow: none);
     text-shadow: none;
     background-color: #404f64;
 }
