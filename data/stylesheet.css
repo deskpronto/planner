@@ -752,7 +752,8 @@ paned.horizontal > separator {
 }
 
 .menu-button {
- padding: 3px;
+    padding: 3px;
+    background: transparent;
 }
 
 .project-name-entry {
