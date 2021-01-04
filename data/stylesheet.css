@@ -288,7 +288,7 @@ paned.horizontal > separator {
 }
 
 .item-row-selected {
-    border-color: #3C4359;
+    border: none;
     border-radius: 0;
     background-color: #404f64;
     padding-top: 6px;
