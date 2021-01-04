@@ -746,7 +746,7 @@ paned.horizontal > separator {
 }
 
 .header-entry {
-    background-color: yellow;
+    background-color: red;
     padding-left: 0px;
     border-bottom: none;
 }
@@ -758,7 +758,7 @@ paned.horizontal > separator {
 .project-name-entry {
     padding-left: 0px;
     padding-top: 0px;
-    background-color: green;
+    background-color: red;
 }
 
 .project-name-entry:focus {
@@ -1196,11 +1196,11 @@ paned.horizontal > separator {
 }
 
 .release-dialog {
-    background-color: red;
+    background-color: yellow;
 }
 
 .release-dialog headerbar {
-    background-color: red;
+    background-color: green;
 }
 
 .release-dialog textview text {
