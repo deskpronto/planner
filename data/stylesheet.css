@@ -644,15 +644,39 @@ paned.horizontal > separator {
     font-weight: 600;
 }
 
+/*
+.add-button:hover {
+    color: #3689e6;
+}
 
+.add-button:hover image {
+    color: #3689e6;
+    animation: add-animation 0.5s ease-in-out;
+    background-color: #3689e6;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.add-button-image {
+    background-color: #3689e6;
+    color: #fefeff;
+    border-radius: 50%;
+}
+
+.add-button-menu:hover image {
+    animation: add-animation 0.35s ease-in-out;
+}
+
+.add-button-menu.animation image {
+    animation: add-animation 0.35s ease-in-out;
+}
+
+*/
 
 .fancy-turn-animation:hover image {
     animation: fancy-turn 0.7s ease-in-out;
 }
 
-.magic-button-animation:hover image {
-    animation: add-animation 0.7s ease-in-out;
-}
 
 .project-icon {
     background-color: #3689e6;
