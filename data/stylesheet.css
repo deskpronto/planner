@@ -1204,15 +1204,15 @@ paned.horizontal > separator {
 }
 
 .release-dialog textview text {
-    background-color: green;
+    background-color: red;
 }
 
 .release-dialog textview {
-    background-color: yellow;
+    background-color: red;
 }
 
 .release-dialog entry {
-    background: blue;
+    background: red;
 }
 
 .keyboardkey {
@@ -1256,7 +1256,7 @@ paned.horizontal > separator {
 }
 
 .note-textview {
-    background-color: red;
+    background-color: green;
 }
 
 .note-textview text {
