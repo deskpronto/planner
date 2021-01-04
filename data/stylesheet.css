@@ -237,7 +237,7 @@ paned.horizontal > separator {
 }
 
 .hidden-button {
-    background-color: yellow;
+    background-color: transparent;
 }
 
 .hidden-button image {
@@ -261,12 +261,8 @@ paned.horizontal > separator {
 */
 
 .item-row {
-    transition: all 115ms ease-in-out;
-	    background-image:
-        linear-gradient(
-            to bottom,
-            #363F56
-        );
+	background: #404f64;
+	border-radius: 10px;
 }
 
 .transition {
