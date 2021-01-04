@@ -1196,23 +1196,23 @@ paned.horizontal > separator {
 }
 
 .release-dialog {
-    background-color: yellow;
+    background-color: red;
 }
 
 .release-dialog headerbar {
-    background-color: green;
+    background-color: red;
 }
 
 .release-dialog textview text {
-    background-color: red;
+    background-color: green;
 }
 
 .release-dialog textview {
-    background-color: red;
+    background-color: yellow;
 }
 
 .release-dialog entry {
-    background: red;
+    background: blue;
 }
 
 .keyboardkey {
