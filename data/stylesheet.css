@@ -34,7 +34,7 @@ button {
 menu {
     background: #404f64;
     box-shadow: none;
-    border-radius: 6px;
+    border-radius: 0;
 }
 
 menu image {
@@ -104,11 +104,6 @@ paned {
     border-top-right-radius: 4px;
 }
 
-/* paned > separator {
-    margin-right: 0;
-    min-width: 1px;
-    min-height: 1px;
-} */
 
 paned.vertical > separator {
     background-image:
@@ -647,35 +642,6 @@ paned.horizontal > separator {
 .due-label {
     font-weight: 600;
 }
-
-/*
-.add-button:hover {
-    color: #3689e6;
-}
-
-.add-button:hover image {
-    color: #3689e6;
-    animation: add-animation 0.5s ease-in-out;
-    background-color: #3689e6;
-    color: #fff;
-    border-radius: 4px;
-}
-
-.add-button-image {
-    background-color: #3689e6;
-    color: #fefeff;
-    border-radius: 50%;
-}
-
-.add-button-menu:hover image {
-    animation: add-animation 0.35s ease-in-out;
-}
-
-.add-button-menu.animation image {
-    animation: add-animation 0.35s ease-in-out;
-}
-
-*/
 
 .fancy-turn-animation:hover image {
     animation: fancy-turn 0.7s ease-in-out;
