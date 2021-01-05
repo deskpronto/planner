@@ -59,14 +59,18 @@ window.popup decoration {
 }
 
 menuitem:active,
-menuitem:hover,
 modelbutton:active,
 modelbutton:hover,
 .menuitem:active,
-.menuitem:focus:active,
-.menuitem:hover {
+.menuitem:focus:active {
     background-color: #404f64;
 }
+
+menuitem:hover,
+.menuitem:hover {
+    background-color: rgba(82, 148, 226, 0.5);
+}
+
 
 menu {
     background-color: #404f64;
