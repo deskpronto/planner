@@ -692,9 +692,7 @@ public class Widgets.ProjectRow : Gtk.ListBoxRow {
         share_menu.set_submenu (share_list_menu);
 
         var share_mail = new Widgets.ImageMenuItem (_("Send by e-mail"), "internet-mail-symbolic");
-        var share_markdown_menu = new Widgets.ImageMenuItem (_("Markdown"), "planner-markdown-symbolic");
 
-        share_list_menu.add (share_markdown_menu);
         share_list_menu.add (share_mail);
         share_list_menu.show_all ();
 
@@ -754,9 +752,6 @@ public class Widgets.ProjectRow : Gtk.ListBoxRow {
             project.share_mail ();
         });
 
-        share_markdown_menu.activate.connect (() => {
-            project.share_markdown ();
-        });
     }
 
     private void on_drag_project_received (Gdk.DragContext context, int x, int y,

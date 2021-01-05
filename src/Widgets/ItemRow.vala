@@ -1548,10 +1548,8 @@ public class Widgets.ItemRow : Gtk.ListBoxRow {
         share_menu.set_submenu (share_list_menu);
 
         var share_text_menu = new Widgets.ImageMenuItem (_("Text"), "spray-mode-copy");
-        var share_markdown_menu = new Widgets.ImageMenuItem (_("Markdown"), "planner-markdown-symbolic");
 
         share_list_menu.add (share_text_menu);
-        share_list_menu.add (share_markdown_menu);
         share_list_menu.show_all ();
 
         var duplicate_menu = new Widgets.ImageMenuItem (_("Duplicate"), "edit-copy-symbolic");
@@ -1608,10 +1606,6 @@ public class Widgets.ItemRow : Gtk.ListBoxRow {
 
         share_text_menu.activate.connect (() => {
             item.share_text ();
-        });
-
-        share_markdown_menu.activate.connect (() => {
-            item.share_markdown ();
         });
 
         duplicate_menu.activate.connect (() => {

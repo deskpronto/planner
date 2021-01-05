@@ -354,7 +354,6 @@ msgstr "Compartilhar"
 msgid "Send by e-mail"
 msgstr "Enviar por e-mail"
 
-#. var share_text_menu = new Widgets.ImageMenuItem (_("Text"), "text-x-generic-symbolic");
 #: src/Widgets/ProjectRow.vala:695 src/Widgets/ItemRow.vala:1551
 #: src/Widgets/SectionRow.vala:1021 src/Widgets/BoardColumn.vala:1022
 msgid "Markdown"
