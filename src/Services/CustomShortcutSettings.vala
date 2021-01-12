@@ -24,11 +24,6 @@ public class Services.CustomShortcutSettings : Object {
 
         var schema = schema_source.lookup (SCHEMA, true);
 
-        if (schema == null) {
-            warning ("Schema \"%s\" is not installed on your system.", SCHEMA);
-            return;
-        }
-
         settings = new GLib.Settings.full (schema, null, null);
 
         available = true;
