@@ -23,6 +23,10 @@ public class Services.CustomShortcutSettings : Object {
         var schema_source = GLib.SettingsSchemaSource.get_default ();
 
         var schema = schema_source.lookup (SCHEMA, true);
+		
+		if (schema == null) {
+            return;
+        }
 
         settings = new GLib.Settings.full (schema, null, null);
 
