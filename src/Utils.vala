@@ -741,51 +741,50 @@ public class Utils : GLib.Object {
             string upcoming_color = "";
 
             if (appearance_mode == 0) {
-                 base_color = "#404f64";
-                 check_border_color = "gray";
-                 projectview_color = "#363F56";
-                 pane_color = "#404f64";
-                 pane_selected_color = "#3C4359";
-                 pane_text_color = "#fefeff";
-                 popover_background = "#404f64";
-                 row_selected_color = "#3C4359";
-                 upcoming_color = "#a970ff";
+                base_color = "white";
+                check_border_color = "@border_color";
+                projectview_color = "shade (#FFFFFF, 0.985)";
+                pane_color = "#F5F6F7";
+                pane_selected_color = "shade (@bg_color, 0.93)";
+                pane_text_color = "#333333";
+                popover_background = "@projectview_color";
+                row_selected_color = "shade (@check_border_color, 0.75)";
+                upcoming_color = "#692fc2";
 
-                Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
+                Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = false;
             } else if (appearance_mode == 1) {
-                 base_color = "#404f64";
-                 check_border_color = "gray";
-                 projectview_color = "#363F56";
-                 pane_color = "#404f64";
-                 pane_selected_color = "#3C4359";
-                 pane_text_color = "#fefeff";
-                 popover_background = "#404f64";
-                 row_selected_color = "#3C4359";
-                 upcoming_color = "#a970ff";
-
+                base_color = "#222222";
+                check_border_color = "grey";
+                projectview_color = "#151515";
+                pane_color = "#1e1e1e";
+                pane_selected_color = "#2B2B2B";
+                pane_text_color = "#ffffff";
+                popover_background = "#333333";
+                row_selected_color = "alpha (#000000, 0.35)";
+                upcoming_color = "#a970ff";
                 Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             } else if (appearance_mode == 2) {
-                 base_color = "#404f64";
-                 check_border_color = "gray";
-                 projectview_color = "#363F56";
-                 pane_color = "#404f64";
-                 pane_selected_color = "#3C4359";
-                 pane_text_color = "#fefeff";
-                 popover_background = "#404f64";
-                 row_selected_color = "#3C4359";
-                 upcoming_color = "#a970ff";
+                base_color = "#15151B";
+                check_border_color = "grey";
+                projectview_color = "#0B0B11";
+                pane_color = "#15151B";
+                pane_selected_color = "#1D2836";
+                pane_text_color = "#ffffff";
+                popover_background = "#15151B";
+                row_selected_color = "shade (#ffffff, 0.125)";
+                upcoming_color = "#a970ff";
 
                 Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             } else if (appearance_mode == 3) {
-                 base_color = "#404f64";
-                 check_border_color = "gray";
-                 projectview_color = "#363F56";
-                 pane_color = "#404f64";
-                 pane_selected_color = "#3C4359";
-                 pane_text_color = "#fefeff";
-                 popover_background = "#404f64";
-                 row_selected_color = "#3C4359";
-                 upcoming_color = "#a970ff";
+                base_color = "#353945";
+                check_border_color = "grey";
+                projectview_color = "#404552";
+                pane_color = "#353945";
+                pane_selected_color = "#2B303B";
+                pane_text_color = "#fefeff";
+                popover_background = "#353945";
+                row_selected_color = "shade (@projectview_color, 0.3)";
+                upcoming_color = "#a970ff";
 
                 Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             }
