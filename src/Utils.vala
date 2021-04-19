@@ -741,21 +741,21 @@ public class Utils : GLib.Object {
             string upcoming_color = "";
 
             if (appearance_mode == 0) {
-                 base_color = "#f7f7f7";
+                 base_color = "#404f64";
                  check_border_color = "gray";
-                 projectview_color = "#EBEBEB";
-                 pane_color = "#f7f7f7";
-                 pane_selected_color = "#DEDEDE";
-                 pane_text_color = "#31363D";
-                 popover_background = "#f7f7f7";
-                 row_selected_color = "#DEDEDE";
+                 projectview_color = "#363F56";
+                 pane_color = "#404f64";
+                 pane_selected_color = "#3C4359";
+                 pane_text_color = "#fefeff";
+                 popover_background = "#404f64";
+                 row_selected_color = "#3C4359";
                  upcoming_color = "#a970ff";
 
                 Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             } else if (appearance_mode == 1) {
                  base_color = "#404f64";
                  check_border_color = "gray";
-                 projectview_color = "#313952";
+                 projectview_color = "#363F56";
                  pane_color = "#404f64";
                  pane_selected_color = "#3C4359";
                  pane_text_color = "#fefeff";
@@ -767,7 +767,7 @@ public class Utils : GLib.Object {
             } else if (appearance_mode == 2) {
                  base_color = "#404f64";
                  check_border_color = "gray";
-                 projectview_color = "#313952";
+                 projectview_color = "#363F56";
                  pane_color = "#404f64";
                  pane_selected_color = "#3C4359";
                  pane_text_color = "#fefeff";
@@ -779,7 +779,7 @@ public class Utils : GLib.Object {
             } else if (appearance_mode == 3) {
                  base_color = "#404f64";
                  check_border_color = "gray";
-                 projectview_color = "#313952";
+                 projectview_color = "#363F56";
                  pane_color = "#404f64";
                  pane_selected_color = "#3C4359";
                  pane_text_color = "#fefeff";
