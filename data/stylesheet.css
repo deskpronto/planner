@@ -437,7 +437,7 @@ paned.horizontal > separator {
 }
 
 .note-grid {
-    border: 1px solid @menu_separator;
+    border: 1px solid #c1c1c1;
     border-radius: 4px;
 }
 
@@ -499,7 +499,7 @@ paned.horizontal > separator {
 
 .drag-begin {
     background-color: #f7f7f7;
-    border: 1px solid @menu_separator;
+    border: 1px solid #c1c1c1;
     border-radius: 5px;
     box-shadow:
         0 0 0 1px alpha (#000, 0.05),
@@ -669,7 +669,8 @@ paned.horizontal > separator {
 .magic-button {
     border-radius: 50%;
     padding: 5px;
-	background-color: #f7f7f7;
+	background-color: #f7f7f7
+	color: #3689e6;
 }
 
 .label-button {
@@ -713,13 +714,13 @@ paned.horizontal > separator {
     background-color: transparent;
     background-image: none;
     box-shadow: none;
-    border-bottom: none;
+    border-bottom: 1px solid #c1c1c1;
 }
 
 .header-entry {
     background-color: #ffffff;
     padding-left: 0px;
-    border-bottom: none;
+    border-bottom: 1px solid #c1c1c1;
 }
 
 .menu-button {
