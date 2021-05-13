@@ -682,7 +682,7 @@ paned.horizontal > separator {
 }
 
 .check-eventbox-border {
-    border: 1px solid alpha (#3689e6, 0.45);
+    border: 1px solid #c1c1c1;
 }
 
 .check-entry {
@@ -802,7 +802,7 @@ paned.horizontal > separator {
 
 .label-item {
     border-radius: 12px;
-    border: 1px solid alpha (@fg_color, 0.45);
+    border: 1px solid #c1c1c1;
     padding: 0px 9px 0px 3px;
     font-weight: 600;
     color: #31363d;
@@ -1108,7 +1108,7 @@ paned.horizontal > separator {
 }
 
 .slim-mode-button {
-    border: 1px solid shade (#f7f7f7, 0.95);
+    border: 1px solid #c1c1c1;
     padding: 0px;
     background: #f7f7f7;
     border-radius: 4px;
