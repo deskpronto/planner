@@ -644,14 +644,6 @@ paned.horizontal > separator {
     animation: add-animation 0.7s ease-in-out;
 }
 
-.fancy-turn-animation {
-    color: #3689e6;
-}
-
-.magic-button-animation {
-    color: #3689e6;
-}
-
 .project-icon {
     background-color: #3689e6;
     color: #fff;
@@ -669,8 +661,8 @@ paned.horizontal > separator {
 .magic-button {
     border-radius: 50%;
     padding: 5px;
-	background-color: #f7f7f7
-	color: #3689e6;
+	background-color: #f7f7f7;
+	color: #00A2E8;
 }
 
 .label-button {
