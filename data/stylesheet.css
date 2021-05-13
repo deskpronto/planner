@@ -65,7 +65,8 @@ modelbutton:hover,
 .menuitem:active,
 .menuitem:focus:active,
 .menuitem:hover {
-    background-color: #ffffff;
+    background-color: #00A2E8;
+	color: #ffffff;
 }
 
 menu {
@@ -451,9 +452,9 @@ paned.horizontal > separator {
 }
 
 .new-item-entry image.right {
-    background: #3689e6;
+    background-color: #ffffff;
     border-radius: 50%;
-    color: #fff;
+    color: #3689e6;
 }
 
 .no-padding-right {
@@ -641,6 +642,14 @@ paned.horizontal > separator {
 
 .magic-button-animation:hover image {
     animation: add-animation 0.7s ease-in-out;
+}
+
+.fancy-turn-animation {
+    color: #3689e6;
+}
+
+.magic-button-animation {
+    color: #3689e6;
 }
 
 .project-icon {
