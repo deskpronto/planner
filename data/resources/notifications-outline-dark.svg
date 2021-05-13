@@ -30,7 +30,7 @@
      id="defs12" />
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     pagecolor="#ffffff"
+     pagecolor="#666666"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -53,16 +53,16 @@
   <title
      id="title2">ionicons-v5-j</title>
   <g
-     style="stroke:#fafafa;stroke-opacity:1"
+     style="stroke:#666666;stroke-opacity:1"
      id="g841"
      transform="matrix(0.85728591,0,0,0.85727707,1.1417115,0.1427255)">
     <path
        id="path4"
-       style="fill:none;stroke:#fafafa;stroke-width:1.16652px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:1.16652px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 14.258665,12.644402 c -0.936131,-1.145739 -1.597036,-1.728998 -1.597036,-4.88771 0,-2.8926 -1.477103,-3.923146 -2.6928343,-4.423655 C 9.8073047,3.266687 9.6552927,3.114315 9.6060807,2.948451 9.3928267,2.222658 8.7949857,1.58326 8.0002957,1.58326 c -0.79469,0 -1.392895,0.639762 -1.603962,1.36592 -0.04921,0.167687 -0.201224,0.317511 -0.362714,0.383857 -1.217189,0.501238 -2.692834,1.528138 -2.692834,4.423655 -0.0018,3.158712 -0.662728,3.741971 -1.598859,4.88771 -0.387867,0.474627 -0.04812,1.187297 0.630284,1.187297 H 13.632026 c 0.674758,0 1.012319,-0.714857 0.626639,-1.187297 z" />
     <path
        id="path6"
-       style="fill:none;stroke:#fafafa;stroke-width:1.16652px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:1.16652px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 10.333332,13.831699 v 0.583259 a 2.3330362,2.3330362 0 0 1 -4.6660723,0 v -0.583259" />
   </g>
 </svg>

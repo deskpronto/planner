@@ -30,7 +30,7 @@
      id="defs14" />
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     pagecolor="#ffffff"
+     pagecolor="#666666"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -52,24 +52,24 @@
   <title
      id="title2">ionicons-v5-f</title>
   <g
-     style="stroke:#fafafa;stroke-opacity:1"
+     style="stroke:#666666;stroke-opacity:1"
      id="g844"
      transform="matrix(0.03365625,0,0,0.03365625,-0.616,-0.6155)">
     <circle
        id="circle4"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-miterlimit:10;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-miterlimit:10;stroke-opacity:1"
        r="32"
        cy="256"
        cx="256" />
     <circle
        id="circle6"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-miterlimit:10;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-miterlimit:10;stroke-opacity:1"
        r="32"
        cy="416"
        cx="256" />
     <circle
        id="circle8"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-miterlimit:10;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-miterlimit:10;stroke-opacity:1"
        r="32"
        cy="96"
        cx="256" />

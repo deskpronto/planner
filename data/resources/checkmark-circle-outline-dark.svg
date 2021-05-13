@@ -47,20 +47,20 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     pagecolor="#666666" />
   <title
      id="title2">ionicons-v5-e</title>
   <g
-     style="stroke:#fafafa;stroke-opacity:1"
+     style="stroke:#666666;stroke-opacity:1"
      transform="matrix(0.03365385,0,0,0.03365385,-0.6153848,-0.6153848)"
      id="g841">
     <path
        d="M 448,256 C 448,150 362,64 256,64 150,64 64,150 64,256 c 0,106 86,192 192,192 106,0 192,-86 192,-192 z"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-miterlimit:10;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-miterlimit:10;stroke-opacity:1"
        id="path4" />
     <polyline
        points="352 176 217.6 336 160 272"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="polyline6" />
   </g>
 </svg>

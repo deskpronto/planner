@@ -30,7 +30,7 @@
      id="defs12" />
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     pagecolor="#ffffff"
+     pagecolor="#666666"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -53,10 +53,10 @@
      id="title2">ionicons-v5-p</title>
   <path
      d="M 13.602494,1.5002209 H 9.7601678 a 0.45207515,0.45207515 0 0 0 -0.318891,0.131308 l -7.681526,7.681526 a 0.90196183,0.90196183 0 0 0 0,1.2724381 l 3.657869,3.65787 a 0.90196183,0.90196183 0 0 0 1.272439,0 L 14.368458,6.5649629 a 0.45207515,0.45207515 0 0 0 0.131308,-0.318891 v -3.845452 a 0.8960217,0.8960217 0 0 0 -0.897272,-0.900399 z"
-     style="fill:none;stroke:#fafafa;stroke-width:1.00044px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     style="fill:none;stroke:#666666;stroke-width:1.00044px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
      id="path4" />
   <path
      d="m 12.000222,5.0017709 a 1.0004429,1.0004429 0 1 1 1.000443,-1.000443 1.0004429,1.0004429 0 0 1 -1.000443,1.000443 z"
      id="path6"
-     style="fill:#fafafa;fill-opacity:1;stroke-width:0.0312638;stroke:none;stroke-opacity:1" />
+     style="fill:#666666;fill-opacity:1;stroke-width:0.0312638;stroke:none;stroke-opacity:1" />
 </svg>

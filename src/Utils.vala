@@ -742,7 +742,7 @@ public class Utils : GLib.Object {
 
             if (appearance_mode == 0) {
                  base_color = "#f7f7f7";
-                 check_border_color = "#c1c1c1";
+                 check_border_color = "#f7f7f7";
                  projectview_color = "#ffffff";
                  pane_color = "#f7f7f7";
                  pane_selected_color = "#e7e7e7";
@@ -754,7 +754,7 @@ public class Utils : GLib.Object {
                 Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             } else if (appearance_mode == 1) {
                  base_color = "#f7f7f7";
-                 check_border_color = "#c1c1c1";
+                 check_border_color = "#f7f7f7";
                  projectview_color = "#ffffff";
                  pane_color = "#f7f7f7";
                  pane_selected_color = "#e7e7e7";
@@ -766,7 +766,7 @@ public class Utils : GLib.Object {
                 Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             } else if (appearance_mode == 2) {
                  base_color = "#f7f7f7";
-                 check_border_color = "#c1c1c1";
+                 check_border_color = "#f7f7f7";
                  projectview_color = "#ffffff";
                  pane_color = "#f7f7f7";
                  pane_selected_color = "#e7e7e7";
@@ -778,7 +778,7 @@ public class Utils : GLib.Object {
                 Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = true;
             } else if (appearance_mode == 3) {
                  base_color = "#f7f7f7";
-                 check_border_color = "#c1c1c1";
+                 check_border_color = "#f7f7f7";
                  projectview_color = "#ffffff";
                  pane_color = "#f7f7f7";
                  pane_selected_color = "#e7e7e7";

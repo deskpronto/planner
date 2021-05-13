@@ -30,7 +30,7 @@
      id="defs20" />
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     pagecolor="#ffffff"
+     pagecolor="#666666"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -52,45 +52,45 @@
   <title
      id="title2">ionicons-v5-o</title>
   <g
-     style="stroke:#fafafa;stroke-opacity:1"
+     style="stroke:#666666;stroke-opacity:1"
      id="g853"
      transform="matrix(0.0336539,0,0,0.03365271,-0.61539645,-0.61509428)">
     <line
        id="line4"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        y2="144"
        x2="448"
        y1="144"
        x1="160" />
     <line
        id="line6"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        y2="256"
        x2="448"
        y1="256"
        x1="160" />
     <line
        id="line8"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        y2="368"
        x2="448"
        y1="368"
        x1="160" />
     <circle
        id="circle10"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        r="16"
        cy="144"
        cx="80" />
     <circle
        id="circle12"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        r="16"
        cy="256"
        cx="80" />
     <circle
        id="circle14"
-       style="fill:none;stroke:#fafafa;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;stroke:#666666;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        r="16"
        cy="368"
        cx="80" />

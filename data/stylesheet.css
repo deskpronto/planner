@@ -159,7 +159,7 @@ paned.horizontal > separator {
 }
 
 .pane-entry:focus {
-    border-bottom: 1px solid alpha (@colorAccent, 0.8);
+    border-bottom: 1px solid #c1c1c1);
     box-shadow: none;
 }
 
@@ -379,7 +379,7 @@ paned.horizontal > separator {
 
 .add-project-widget {
     border-radius: 6px;
-    border: 1px solid #637384;
+    border: 1px solid #c1c1c1;
     box-shadow: none;
     text-shadow: none;
     background-color: #f7f7f7;
@@ -558,7 +558,7 @@ paned.horizontal > separator {
 
 .calendar-day-selected {
     background-color: @colorAccent;
-    color: #fafafa;
+    color: #31363d;
     border-radius: 6px;
     padding: 3px;
 }
@@ -593,7 +593,7 @@ paned.horizontal > separator {
 
 .today-icon {
     background-color: #ffaa00;
-    color: #ffffff;
+    color: #31363d;
     border-radius: 4px;
     padding: 2px;
 }
@@ -724,7 +724,7 @@ paned.horizontal > separator {
 }
 
 .project-name-entry:focus {
-    border-bottom: 1px solid alpha (@colorAccent, 0.8);
+    border-bottom: 1px solid #c1c1c1;
     box-shadow: none;
 }
 
@@ -751,7 +751,7 @@ paned.horizontal > separator {
 
 .badge-expi#f7f7f7 {
     background-color: #fa1955;
-    color: #ffffff;
+    color: #31363d;
     border-radius: 50px;
 }
 
@@ -1041,14 +1041,14 @@ paned.horizontal > separator {
 
 .today-icon-button {
     background-color: #ffaa00;
-    color: #ffffff;
+    color: #31363d;
     border-radius: 50%;
     padding: 2px;
 }
 
 .today-icon-item {
     background-color: #ffaa00;
-    color: #ffffff;
+    color: #31363d;
     border-radius: 50%;
     padding: 0.5px;
 }
