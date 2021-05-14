@@ -86,7 +86,7 @@ menu {
 }
 
 .projectview-header {
-    background-color: #ffffff;
+    background-color: #D6D6D6;
 }
 
 .projectview-header:dir(ltr) {
@@ -1216,7 +1216,7 @@ paned.horizontal > separator {
 }
 
 .note-textview {
-    background-color: #ffffff;
+    background-color: #D6D6D6;
 }
 
 .note-textview text {
