@@ -28,11 +28,11 @@ button {
 }
 
 .planner-button {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 menu {
-    background: #d6d6d6;
+    background: #EAEAEA;
     box-shadow: none;
     border-radius: 0;
 }
@@ -119,7 +119,7 @@ paned.horizontal > separator {
 }
 
 .pane {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
     border-bottom-left-radius: 4px;
 }
 
@@ -141,7 +141,7 @@ paned.horizontal > separator {
 }
 
 .pane-entry {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
     color: #31363d;
     padding-left: 0px;
 }
@@ -250,7 +250,7 @@ paned.horizontal > separator {
 */
 
 .item-row {
-	background: #d6d6d6;
+	background: #EAEAEA;
 	border-radius: 0;
 }
 
@@ -271,7 +271,7 @@ paned.horizontal > separator {
 .item-row-selected {
     border: none;
     border-radius: 0;
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
     padding-top: 6px;
     padding-left: 6px;
     margin-left: 2px;
@@ -345,7 +345,7 @@ paned.horizontal > separator {
 .quick-find {
     border-radius: 6px;
     border: 1px solid #c1c1c1;
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
     margin: 12px;
     text-shadow: none;
@@ -370,7 +370,7 @@ paned.horizontal > separator {
     border: 1px solid #c1c1c1;
     box-shadow: none;
     text-shadow: none;
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 .color-radio radio,
@@ -453,7 +453,7 @@ paned.horizontal > separator {
 }
 
 .textview text {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 .actionbar {
@@ -463,7 +463,7 @@ paned.horizontal > separator {
 .content-entry {
     color: #31363d;
     border-width: 0px 0px 0px 0px;
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 .entry-no-border {
@@ -485,7 +485,7 @@ paned.horizontal > separator {
 }
 
 .drag-begin {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
     border: 1px solid #c1c1c1;
     border-radius: 5px;
     box-shadow:
@@ -508,13 +508,13 @@ paned.horizontal > separator {
 
 .delete-check-button {
     background-color: #31363d;
-    color: #d6d6d6;
+    color: #EAEAEA;
     border-radius: 50%;
     padding: 0px;
 }
 
 .delete-check-button image {
-    color: #d6d6d6;
+    color: #EAEAEA;
     transition: all 240ms ease-in-out;
 }
 
@@ -526,7 +526,7 @@ paned.horizontal > separator {
     box-shadow: none;
     color: #31363d;
     border-radius: 6px;
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 .item-action-button {
@@ -738,7 +738,7 @@ paned.horizontal > separator {
     color: #fa1955;
 }
 
-.badge-expi#d6d6d6 {
+.badge-expi#EAEAEA {
     background-color: #fa1955;
     color: #31363d;
     border-radius: 50px;
@@ -751,11 +751,11 @@ paned.horizontal > separator {
         linear-gradient(
             to bottom,
             shade (
-                #d6d6d6,
+                #EAEAEA,
                 0.99
             ),
             shade (
-                #d6d6d6,
+                #EAEAEA,
                 0.97
             )
         );
@@ -774,7 +774,7 @@ paned.horizontal > separator {
 }
 
 .label-row {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 .label-row label {
@@ -811,7 +811,7 @@ paned.horizontal > separator {
 }
 
 .preferences-view {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 .preference-item-radio {
@@ -887,7 +887,7 @@ paned.horizontal > separator {
 }
 
 .searchitem-row:selected {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
     color: #31363d;
 }
 
@@ -905,9 +905,9 @@ paned.horizontal > separator {
 }
 
 @keyframes highlight-item {
-    0%   { background-color: #d6d6d6; }
+    0%   { background-color: #EAEAEA; }
     50%  { background-color: #ffffff; }
-    100% { background-color: #d6d6d6; }
+    100% { background-color: #EAEAEA; }
 }
 
 .item-highlight {
@@ -916,14 +916,14 @@ paned.horizontal > separator {
 }
 
 .name-entry {
-    background: #d6d6d6;
+    background: #EAEAEA;
 }
 .description text {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 .description-dialog text {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 .border-radius-4 {
@@ -962,7 +962,7 @@ paned.horizontal > separator {
 }
 
 .notification-image {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
     padding: 3px;
     border-radius: 4px;
     color: #31363d;
@@ -1001,7 +1001,7 @@ paned.horizontal > separator {
 }
 
 .cancel-button {
-    background: #d6d6d6; 
+    background: #EAEAEA; 
 }
 
 .priority-4 check {
@@ -1099,7 +1099,7 @@ paned.horizontal > separator {
 .slim-mode-button {
     border: 1px solid #c1c1c1;
     padding: 0px;
-    background: #d6d6d6;
+    background: #EAEAEA;
     border-radius: 4px;
 }
 
@@ -1179,15 +1179,15 @@ paned.horizontal > separator {
 
 .multi-select-toolbar-button {
     background-color: transparent;
-    color: #d6d6d6;
+    color: #EAEAEA;
 }
 
 .multi-select-toolbar-button label {
-    color: #d6d6d6;
+    color: #EAEAEA;
 }
 
 .app-notification spinner {
-    color: #d6d6d6;
+    color: #EAEAEA;
 }
 
 .app-notification.error {
@@ -1203,7 +1203,7 @@ paned.horizontal > separator {
 }
 
 .note-textview {
-    background-color: #d6d6d6;
+    background-color: #EAEAEA;
 }
 
 .note-textview text {
