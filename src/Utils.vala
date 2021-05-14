@@ -743,7 +743,7 @@ public class Utils : GLib.Object {
             if (appearance_mode == 0) {
                  base_color = "#f7f7f7";
                  check_border_color = "#f7f7f7";
-                 projectview_color = "#ffffff";
+                 projectview_color = "#D6D6D6";
                  pane_color = "#f7f7f7";
                  pane_selected_color = "#e7e7e7";
                  pane_text_color = "#31363d";
@@ -755,7 +755,7 @@ public class Utils : GLib.Object {
             } else if (appearance_mode == 1) {
                  base_color = "#f7f7f7";
                  check_border_color = "#f7f7f7";
-                 projectview_color = "#ffffff";
+                 projectview_color = "#D6D6D6";
                  pane_color = "#f7f7f7";
                  pane_selected_color = "#e7e7e7";
                  pane_text_color = "#31363d";
@@ -767,7 +767,7 @@ public class Utils : GLib.Object {
             } else if (appearance_mode == 2) {
                  base_color = "#f7f7f7";
                  check_border_color = "#f7f7f7";
-                 projectview_color = "#ffffff";
+                 projectview_color = "#D6D6D6";
                  pane_color = "#f7f7f7";
                  pane_selected_color = "#e7e7e7";
                  pane_text_color = "#31363d";
@@ -779,7 +779,7 @@ public class Utils : GLib.Object {
             } else if (appearance_mode == 3) {
                  base_color = "#f7f7f7";
                  check_border_color = "#f7f7f7";
-                 projectview_color = "#ffffff";
+                 projectview_color = "#D6D6D6";
                  pane_color = "#f7f7f7";
                  pane_selected_color = "#e7e7e7";
                  pane_text_color = "#31363d";

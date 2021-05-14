@@ -344,11 +344,11 @@ paned.horizontal > separator {
 }
 
 .project-dialog {
-    background-color: #ffffff;
+    background-color: #D6D6D6;
 }
 
 .project-dialog headerbar {
-    background-color: #ffffff;
+    background-color: #D6D6D6;
 }
 
 .text-color {
@@ -432,7 +432,7 @@ paned.horizontal > separator {
 }
 
 .project-textview text {
-    background-color: #ffffff;
+    background-color: #D6D6D6;
     transition: all 250ms ease-in-out;
 }
 
@@ -661,7 +661,7 @@ paned.horizontal > separator {
 .magic-button {
     border-radius: 50%;
     padding: 5px;
-	background-color: #f7f7f7;
+	background-color: #ffffff;
 	color: #00A2E8;
 }
 
